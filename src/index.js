@@ -1,11 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { BrowserRouter } from "react-router-dom";
 import DashboardBsp from "./Dashboard-BSP";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
     <React.StrictMode>
-        <DashboardBsp />
+        <BrowserRouter>
+            <DashboardBsp />
+        </BrowserRouter>
     </React.StrictMode>,
     document.getElementById("root")
 );
