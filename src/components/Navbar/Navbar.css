@@ -19,7 +19,7 @@
 
 .navbarMenu-container {
     display: flex;
-    margin-left: 130px;
+    margin-left: 80px;
     height: 94px;
     margin-top: 10px;
     align-items: center;
@@ -29,12 +29,16 @@
     color: black;
     text-decoration: none;
     margin-right: 30px;
-    font-size: 17px;
+    font-size: 20px;
+}
+
+.navbarMenu:hover {
+    color: #d23d3d;
 }
 
 .navbarButton-container {
     /* margin-top: 29px; */
-    margin-left: 70px;
+    margin-left: 90px;
     height: 94px;
     display: flex;
     align-items: center;

@@ -5,17 +5,54 @@ import "./Navbar.css";
 class Navbar extends Component {
     render() {
         return (
-            <div id="navbarSpl">
+            <div id="navbarSpl" data-aos="fade-up" data-aos-offset="200" data-aos-delay="0">
                 <img className="navbarLogo" src={this.props.linkLogo} alt="" />
                 <div className="navbarMenu-container">
-                    <Link
-                        className="navbarMenu"
-                        to={{
-                            pathname: `notset`,
-                        }}
-                    >
-                        <p>Product</p>
-                    </Link>
+                    <div class="navbarMenu dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Product
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <Link
+                                            className="navbarMenu"
+                                            to={{
+                                                pathname: `notset`,
+                                            }}
+                                        >
+                                            <p>Picasso</p>
+                                        </Link>
+                                    </td>
+                                    <td>
+                                        <Link
+                                            className="navbarMenu"
+                                            to={{
+                                                pathname: `notset`,
+                                            }}
+                                        >
+                                            <p>Big View</p>
+                                        </Link>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li>
+                                            <Link
+                                                className="navbarMenu"
+                                                to={{
+                                                    pathname: `notset`,
+                                                }}
+                                            >
+                                                <p>Smart Eye</p>
+                                            </Link>
+                                        </li>
+                                    </td>
+                                </tr>
+                            </table>
+                        </ul>
+                    </div>
                     <Link
                         className="navbarMenu"
                         to={{
