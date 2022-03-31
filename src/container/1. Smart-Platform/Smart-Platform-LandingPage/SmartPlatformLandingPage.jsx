@@ -5,6 +5,7 @@ class Smartplatformlandingpage extends Component {
         return (
             <div>
                 <h1>masuk smart platform landing page</h1>
+                <h1>coba online</h1>
             </div>
         );
     }
