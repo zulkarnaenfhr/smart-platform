@@ -1,0 +1,10 @@
+navbar {
+    - udah tinggal linknya yang popup
+}
+
+smartPlatform {
+    landingPage {
+
+    }
+
+}
