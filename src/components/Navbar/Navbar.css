@@ -19,7 +19,7 @@
 
 .navbarMenu-container {
     display: flex;
-    margin-left: 80px;
+    margin-left: 20px;
     height: 94px;
     margin-top: 10px;
     align-items: center;
@@ -36,9 +36,25 @@
     color: #d23d3d;
 }
 
+.dropdown-menu-container {
+    width: 253px;
+    border-radius: 6px;
+    height: 110px;
+}
+
+.Dropdown-Menu {
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.Dropdown-Menu:hover {
+    color: #d23d3d;
+}
+
 .navbarButton-container {
-    /* margin-top: 29px; */
-    margin-left: 90px;
     height: 94px;
     display: flex;
     align-items: center;
@@ -49,10 +65,17 @@
     height: 35px;
     border-radius: 17px;
     margin-right: 13px;
+    transition: all 0.4s ease-in-out;
+}
+
+.navbarButton:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 4px 0px rgb(0, 0, 0, 0.3);
 }
 
 .buttonDemo {
     border: 1px solid #d23d3d;
     color: #d23d3d;
     background-color: transparent;
+    font-weight: 600;
 }
