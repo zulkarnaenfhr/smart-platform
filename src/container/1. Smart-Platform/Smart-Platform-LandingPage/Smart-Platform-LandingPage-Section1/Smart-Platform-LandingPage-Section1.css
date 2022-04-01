@@ -17,7 +17,7 @@
 .SPL-LandingPage-Section1-Text-container {
     text-align: center;
     position: relative;
-    z-index: -1;
+    z-index: 0;
     top: 154px;
 }
 
@@ -45,5 +45,11 @@
     margin-top: 54px;
     color: white;
     font-weight: 700;
-    font-size: 700;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+
+.SPL-LandingPage-Section1-Text-container button:hover {
+    box-shadow: 0 4px 4px 0px rgb(0, 0, 0, 0.3);
+    transform: scale(1.025);
 }

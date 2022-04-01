@@ -8,98 +8,100 @@ class Navbar extends Component {
             <div id="navbarSpl" data-aos="fade-up" data-aos-offset="200" data-aos-delay="0">
                 <img className="navbarLogo" src={this.props.linkLogo} alt="" />
                 <div className="navbarMenu-container">
-                    <div class="navbarMenu dropdown">
+                    <div className="navbarMenu dropdown">
                         <button
                             style={{
                                 position: "relative",
                                 bottom: "8.8px",
                                 left: "15px",
                             }}
-                            class="btn navbarMenu dropdown-toggle"
+                            className="btn navbarMenu dropdown-toggle"
                             type="button"
                             data-bs-toggle="dropdown"
                             aria-expanded="false"
                         >
                             Product
                         </button>
-                        <div class="dropdown-menu dropdown-menu-container" aria-labelledby="dropdownMenuButton1">
+                        <div className="dropdown-menu dropdown-menu-container" aria-labelledby="dropdownMenuButton1">
                             <table style={{ marginLeft: "16px", marginTop: "8.5px" }}>
-                                <tr style={{ height: "10px" }}>
-                                    <td style={{ width: "140px" }}>
-                                        <Link
-                                            className="Dropdown-Menu"
-                                            to={{
-                                                pathname: `notset`,
-                                            }}
-                                        >
-                                            <p>Picasso</p>
-                                        </Link>
-                                    </td>
-                                    <td>
-                                        <Link
-                                            className="Dropdown-Menu"
-                                            to={{
-                                                pathname: `notset`,
-                                            }}
-                                        >
-                                            <p>Big View</p>
-                                        </Link>
-                                    </td>
-                                </tr>
-                                <tr
-                                    style={{
-                                        position: "relative",
-                                        bottom: "6.5px",
-                                    }}
-                                >
-                                    <td>
-                                        <Link
-                                            className="Dropdown-Menu"
-                                            to={{
-                                                pathname: `notset`,
-                                            }}
-                                        >
-                                            <p>Smart Eye</p>
-                                        </Link>
-                                    </td>
-                                    <td>
-                                        <Link
-                                            className="Dropdown-Menu"
-                                            to={{
-                                                pathname: `notset`,
-                                            }}
-                                        >
-                                            <p>Big Box</p>
-                                        </Link>
-                                    </td>
-                                </tr>
-                                <tr
-                                    style={{
-                                        position: "relative",
-                                        bottom: "12.5px",
-                                    }}
-                                >
-                                    <td>
-                                        <Link
-                                            className="Dropdown-Menu"
-                                            to={{
-                                                pathname: `notset`,
-                                            }}
-                                        >
-                                            <p>Legal Analitycs</p>
-                                        </Link>
-                                    </td>
-                                    <td>
-                                        <Link
-                                            className="Dropdown-Menu"
-                                            to={{
-                                                pathname: `notset`,
-                                            }}
-                                        >
-                                            <p>Big Score</p>
-                                        </Link>
-                                    </td>
-                                </tr>
+                                <tbody>
+                                    <tr style={{ height: "10px" }}>
+                                        <td style={{ width: "140px" }}>
+                                            <Link
+                                                className="Dropdown-Menu"
+                                                to={{
+                                                    pathname: `notset`,
+                                                }}
+                                            >
+                                                <p>Picasso</p>
+                                            </Link>
+                                        </td>
+                                        <td>
+                                            <Link
+                                                className="Dropdown-Menu"
+                                                to={{
+                                                    pathname: `notset`,
+                                                }}
+                                            >
+                                                <p>Big View</p>
+                                            </Link>
+                                        </td>
+                                    </tr>
+                                    <tr
+                                        style={{
+                                            position: "relative",
+                                            bottom: "6.5px",
+                                        }}
+                                    >
+                                        <td>
+                                            <Link
+                                                className="Dropdown-Menu"
+                                                to={{
+                                                    pathname: `notset`,
+                                                }}
+                                            >
+                                                <p>Smart Eye</p>
+                                            </Link>
+                                        </td>
+                                        <td>
+                                            <Link
+                                                className="Dropdown-Menu"
+                                                to={{
+                                                    pathname: `notset`,
+                                                }}
+                                            >
+                                                <p>Big Box</p>
+                                            </Link>
+                                        </td>
+                                    </tr>
+                                    <tr
+                                        style={{
+                                            position: "relative",
+                                            bottom: "12.5px",
+                                        }}
+                                    >
+                                        <td>
+                                            <Link
+                                                className="Dropdown-Menu"
+                                                to={{
+                                                    pathname: `notset`,
+                                                }}
+                                            >
+                                                <p>Legal Analitycs</p>
+                                            </Link>
+                                        </td>
+                                        <td>
+                                            <Link
+                                                className="Dropdown-Menu"
+                                                to={{
+                                                    pathname: `notset`,
+                                                }}
+                                            >
+                                                <p>Big Score</p>
+                                            </Link>
+                                        </td>
+                                    </tr>
+                                </tbody>
                             </table>
                         </div>
                     </div>
@@ -122,13 +124,13 @@ class Navbar extends Component {
                     >
                         <p>Partnership</p>
                     </Link>
-                    <div class="navbarMenu dropdown">
+                    <div className="navbarMenu dropdown">
                         <button
                             style={{
                                 position: "relative",
                                 bottom: "8.8px",
                             }}
-                            class="btn navbarMenu dropdown-toggle"
+                            className="btn navbarMenu dropdown-toggle"
                             type="button"
                             data-bs-toggle="dropdown"
                             aria-expanded="false"
@@ -136,7 +138,7 @@ class Navbar extends Component {
                             Resources
                         </button>
                         <div
-                            class="dropdown-menu dropdown-menu-container"
+                            className="dropdown-menu dropdown-menu-container"
                             aria-labelledby="dropdownMenuButton1"
                             style={{
                                 height: "103px",
@@ -183,13 +185,13 @@ class Navbar extends Component {
                             </div>
                         </div>
                     </div>
-                    <div class="navbarMenu dropdown">
+                    <div className="navbarMenu dropdown">
                         <button
                             style={{
                                 marginLeft: "-45px",
                                 marginBottom: "16.8px",
                             }}
-                            class="btn navbarMenu dropdown-toggle"
+                            className="btn navbarMenu dropdown-toggle"
                             type="button"
                             data-bs-toggle="dropdown"
                             aria-expanded="false"
@@ -197,7 +199,7 @@ class Navbar extends Component {
                             Company
                         </button>
                         <div
-                            class="dropdown-menu dropdown-menu-container"
+                            className="dropdown-menu dropdown-menu-container"
                             aria-labelledby="dropdownMenuButton1"
                             style={{
                                 height: "103px",
