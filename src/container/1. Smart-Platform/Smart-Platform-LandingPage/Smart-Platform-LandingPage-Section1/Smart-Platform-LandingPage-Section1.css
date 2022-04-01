@@ -1,7 +1,7 @@
 #SPL-LandingPage-Section1 {
     height: 745px;
     width: 100vw;
-    border: 1px solid red;
+    border-bottom: 1px solid red;
 }
 
 .SPL-LandingPage-Section1-Background {
