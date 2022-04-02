@@ -14,6 +14,7 @@ class Smartplatformlandingpage extends Component {
                 <div className="content-container">
                     <SmartPlatformLandingpageSection1 />
                     <SmartPlatformLandingpageSection2 />
+                    <h1>masuk batas bawah</h1>
                 </div>
             </div>
         );

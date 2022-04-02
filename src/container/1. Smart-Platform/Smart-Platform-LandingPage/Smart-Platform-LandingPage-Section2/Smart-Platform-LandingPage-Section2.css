@@ -1,6 +1,28 @@
 #SPL-LandingPage-Section2 {
     border: 1px solid red;
-    height: 745px;
+    height: 1097px;
     width: 100vw;
-    background: white;
+    background: #fbfbfb;
+    font-family: "Poppins", sans-serif;
+}
+
+.SPL-LandingPage-Section2-Text-Container {
+    text-align: center;
+    margin-top: 77px;
+}
+
+.SPL-LandingPage-Section2-Text1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.SPL-LandingPage-Section2-Text2 {
+    margin-top: -11px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.SPL-LandingPage-Section2-Card-Container {
+    display: flex;
+    margin-top: 39px;
 }

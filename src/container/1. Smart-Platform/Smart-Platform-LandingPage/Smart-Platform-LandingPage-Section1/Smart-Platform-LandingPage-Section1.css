@@ -2,6 +2,7 @@
     height: 745px;
     width: 100vw;
     border-bottom: 1px solid red;
+    font-family: "Poppins", sans-serif;
 }
 
 .SPL-LandingPage-Section1-Background {
@@ -27,7 +28,7 @@
 
 .SPL-LandingPage-Section1-Text-container h1 {
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .SPL-LandingPage-Section1-Text-container h4 {
