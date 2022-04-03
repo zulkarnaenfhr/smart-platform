@@ -1,0 +1,32 @@
+#SPL-LandingPage-Section3 {
+    width: 100vw;
+    height: 338px;
+    background-color: #484848;
+    color: white;
+}
+
+.SPL-LandingPage-Section3-Title {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding-top: 51px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.SPL-LandingPage-Section3-Desc {
+    margin-top: 18px;
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 0.9px;
+}
+
+.SPL-LandingPage-Section3-Button {
+    width: 321px;
+    height: 47px;
+    color: white;
+    background: #d23d3d;
+    border-radius: 65px;
+    border: 1px solid transparent;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
