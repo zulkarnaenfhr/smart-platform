@@ -9,13 +9,15 @@ class Smartplatformlandingpage extends Component {
     render() {
         return (
             <div>
-                <div className="navbar-container">
+                <div className="SPL-LandingPage-navbar-container">
                     <Navbar linkLogo={`https://i.ibb.co/k4WFRLW/Logo-Navbar.png`} colorFreeTrial={`white`} backgroundFreeTrial={`#D23D3D`} colorContactUs={`white`} backgroundContactUs={`#D23D3D`} />
                 </div>
-                <div className="content-container">
+                <div className="SPL-LandingPage-content-container">
                     <SmartPlatformLandingpageSection1 />
-                    <SmartPlatformLandingpageSection2 />
-                    <SmartPlatformLandingpageSection3 />
+                    <div className="SPL-LandingPage-content-container-section-2-3">
+                        <SmartPlatformLandingpageSection2 />
+                        <SmartPlatformLandingpageSection3 />
+                    </div>
                     <h1>masuk batas bawah</h1>
                 </div>
             </div>

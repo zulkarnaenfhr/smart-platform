@@ -6,11 +6,13 @@ class SmartPlatformLandingpageSection3 extends Component {
     render() {
         return (
             <div id="SPL-LandingPage-Section3">
-                <h1 className="SPL-LandingPage-Section3-Title">LET'S TRY OUR DEMO APPS</h1>
-                <p className="SPL-LandingPage-Section3-Desc">
+                <h1 data-aos="fade-up" data-aos-offset="200" className="SPL-LandingPage-Section3-Title">
+                    LET'S TRY OUR DEMO APPS
+                </h1>
+                <p data-aos="fade-up" data-aos-offset="200" className="SPL-LandingPage-Section3-Desc">
                     Discover how our products are implemented in real world situations and <br /> used in various use case through our interactive demo app.
                 </p>
-                <div style={{ width: "100vw", display: "flex", justifyContent: "center", marginTop: "50px" }}>
+                <div data-aos="fade-up" style={{ width: "100vw", display: "flex", justifyContent: "center", marginTop: "50px" }}>
                     <Link
                         to={{
                             pathname: `notset`,

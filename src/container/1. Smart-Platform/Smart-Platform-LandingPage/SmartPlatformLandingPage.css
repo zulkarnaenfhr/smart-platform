@@ -1,15 +1,18 @@
-.navbar-container {
+.SPL-LandingPage-navbar-container {
     position: fixed;
     top: 0;
     height: 100px;
     z-index: 2;
 }
 
-.content-container {
+.SPL-LandingPage-content-container {
     margin-top: 95px;
 }
 
 .cekWidth {
     width: 1920px;
-    border: 1px solid red;
+}
+
+.SPL-LandingPage-content-container-section-2-3 {
+    box-shadow: 24px 8px 24px 16px rgba(0, 0, 0, 0.25);
 }

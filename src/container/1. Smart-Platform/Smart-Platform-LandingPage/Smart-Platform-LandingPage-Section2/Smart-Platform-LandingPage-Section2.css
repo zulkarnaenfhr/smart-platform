@@ -1,9 +1,10 @@
 #SPL-LandingPage-Section2 {
-    border: 1px solid red;
+    border: 1px solid transparent;
     height: 1097px;
     width: 100vw;
     background: #fbfbfb;
     font-family: "Poppins", sans-serif;
+    box-shadow: 24px 8px 24px 16px rgba(0, 0, 0, 0.25);
 }
 
 .SPL-LandingPage-Section2-Text-Container {
