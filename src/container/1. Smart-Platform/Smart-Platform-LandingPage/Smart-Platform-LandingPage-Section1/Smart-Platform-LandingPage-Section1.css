@@ -45,9 +45,9 @@
     border: 1px solid transparent;
     margin-top: 54px;
     color: white;
-    font-weight: 700;
     display: inline-block;
     transition: all 0.3s ease-in-out;
+    letter-spacing: 0.5px;
 }
 
 .SPL-LandingPage-Section1-Text-container button:hover {

@@ -249,10 +249,7 @@ class Navbar extends Component {
                 </div>
                 <div className="navbarButton-container">
                     <button className="navbarButton buttonDemo">DEMO APPS</button>
-                    <button className="navbarButton" style={{ color: this.props.colorFreeTrial, backgroundColor: this.props.backgroundFreeTrial, borderColor: "transparent", fontWeight: "600" }}>
-                        FREE TRIAL
-                    </button>
-                    <button className="navbarButton navbarContactUs" style={{ color: this.props.colorContactUs, backgroundColor: this.props.backgroundContactUs, borderColor: "transparent", fontWeight: "600" }}>
+                    <button className="navbarButton navbarContactUs" style={{ color: this.props.colorContactUs, backgroundColor: this.props.backgroundContactUs, borderColor: "transparent" }}>
                         CONTACT US
                     </button>
                 </div>

@@ -16,7 +16,7 @@ class SmartPlatformLandingpageSection2 extends Component {
                     <div className="SPL-LandingPage-Section2-Card-Container row">
                         <div className="col-4">
                             <Cardspllandingpage
-                                logoImg={`https://i.ibb.co/4ZKX2SL/Section-2-Big-Score.png`}
+                                logoImg={`https://i.ibb.cob/4ZKX2SL/Section-2-Big-Score.png`}
                                 productName={`Telco Risk Scoring `}
                                 productDesc={`adalah angka yang memberikan informasi atau kategori Profil Risiko Telkom pelanggan yang mencerminkan seberapa baik atau buruk risiko kredit yang menurut pemberi pinjaman tertentu Anda.`}
                                 linkProduct={`notSet`}
