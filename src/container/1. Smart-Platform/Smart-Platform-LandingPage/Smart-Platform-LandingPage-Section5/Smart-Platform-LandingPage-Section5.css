@@ -1,0 +1,49 @@
+#SPL-LandingPage-Section5 {
+    height: 585px;
+    border: 1px solid red;
+    font-family: "Poppins", sans-serif;
+}
+
+.SPL-LandingPage-Section5-Content-Container {
+    margin-top: 46px;
+    width: 1253px;
+    height: 468px;
+    background-color: #f7f7f7;
+    margin-left: 139px;
+
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.26);
+    border-radius: 5px;
+}
+
+.SPL-LandingPage-Section5-Content-Container h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    color: #323232;
+    font-weight: 900;
+}
+
+.SPL-LandingPage-Section5-Content-CostSaving-Logo {
+    position: absolute;
+    width: 100.99px;
+    height: 96.66px;
+    left: 314.01px;
+    top: 3730px;
+}
+
+.SPL-LandingPage-Section5-Content-CostSaving2-Logo {
+    position: absolute;
+    width: 110.12px;
+    height: 101.31px;
+    left: 711.7px;
+    top: 3728px;
+}
+
+.SPL-LandingPage-Section5-Content-CostSaving3-Logo {
+    position: absolute;
+    width: 90.89px;
+    height: 98.1px;
+    left: 1123.11px;
+    top: 3730px;
+}
