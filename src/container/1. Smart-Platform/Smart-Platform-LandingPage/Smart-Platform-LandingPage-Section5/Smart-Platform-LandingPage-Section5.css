@@ -47,3 +47,26 @@
     left: 1123.11px;
     top: 3730px;
 }
+
+.SPL-LandingPage-Section5-Content-CostSaving-Title-Container {
+    margin-top: 202px;
+    margin-left: 67px;
+}
+
+.SPL-LandingPage-Section5-Content-CostSaving1-Title {
+    font-size: 27px;
+    color: #d23d3d;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}
+
+.SPL-LandingPage-Section5-Content-CostSaving1-Desc {
+    width: 390px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-left: -33px;
+}
