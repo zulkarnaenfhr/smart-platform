@@ -30,9 +30,11 @@
     position: absolute;
     margin-left: 189px;
     margin-top: 279px;
-    transition: all 1s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .CardSPLLandingPage-Button:hover {
-    background-color: wheat;
+    background-color: white;
+    color: #d23d3d;
+    border: 1px solid #d23d3d;
 }
