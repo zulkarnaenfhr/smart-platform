@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/smart-platform/static/css/main.822e7da3.css",
-    "main.js": "/smart-platform/static/js/main.0c50ed7a.js",
+    "main.css": "/smart-platform/static/css/main.68310374.css",
+    "main.js": "/smart-platform/static/js/main.d2329fd3.js",
     "static/js/787.a2acb59d.chunk.js": "/smart-platform/static/js/787.a2acb59d.chunk.js",
     "index.html": "/smart-platform/index.html",
-    "main.822e7da3.css.map": "/smart-platform/static/css/main.822e7da3.css.map",
-    "main.0c50ed7a.js.map": "/smart-platform/static/js/main.0c50ed7a.js.map",
+    "main.68310374.css.map": "/smart-platform/static/css/main.68310374.css.map",
+    "main.d2329fd3.js.map": "/smart-platform/static/js/main.d2329fd3.js.map",
     "787.a2acb59d.chunk.js.map": "/smart-platform/static/js/787.a2acb59d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.822e7da3.css",
-    "static/js/main.0c50ed7a.js"
+    "static/css/main.68310374.css",
+    "static/js/main.d2329fd3.js"
   ]
 }
