@@ -5,19 +5,10 @@ class SmartPlatformLandingpageSection5 extends Component {
     render() {
         return (
             <div id="SPL-LandingPage-Section5">
-                <div className="SPL-LandingPage-Section5-Content-Container">
-                    <h1>product achievement</h1>
-                    {/* <div className="row">
-                        <div className="col-4">
-                            <p>masuk</p>
-                        </div>
-                        <div className="col-4">
-                            <p>masuk</p>
-                        </div>
-                        <div className="col-4">
-                            <p>masuk</p>
-                        </div>
-                    </div> */}
+                <div className="SPL-LandingPage-Section5-Content-Container" data-aos="fade-up" data-aos-offset="0">
+                    <h1 data-aos="fade-up" data-aos-offset="100">
+                        product achievement
+                    </h1>
                     <div
                         style={{
                             display: "flex",
@@ -34,24 +25,36 @@ class SmartPlatformLandingpageSection5 extends Component {
                         }}
                     >
                         <div>
-                            <p className="SPL-LandingPage-Section5-Content-CostSaving1-Title">Cost-saving practices</p>
-                            <h3 className="SPL-LandingPage-Section5-Content-CostSaving1-Desc">Meningkatkan efisiensi biaya operasional untuk kebutuhan bisnis anda.</h3>
+                            <p className="SPL-LandingPage-Section5-Content-CostSaving1-Title" data-aos="fade-up" data-aos-offset="100">
+                                Cost-saving practices
+                            </p>
+                            <h3 className="SPL-LandingPage-Section5-Content-CostSaving1-Desc" data-aos="fade-up" data-aos-offset="100">
+                                Meningkatkan efisiensi biaya operasional untuk kebutuhan bisnis anda.
+                            </h3>
                         </div>
                         <div
                             style={{
                                 marginLeft: "45px",
                             }}
                         >
-                            <p className="SPL-LandingPage-Section5-Content-CostSaving1-Title">Cost-saving practices</p>
-                            <h3 className="SPL-LandingPage-Section5-Content-CostSaving1-Desc">Meningkatkan efisiensi biaya operasional untuk kebutuhan bisnis anda.</h3>
+                            <p className="SPL-LandingPage-Section5-Content-CostSaving1-Title" data-aos="fade-up" data-aos-offset="100">
+                                Cost-saving practices
+                            </p>
+                            <h3 className="SPL-LandingPage-Section5-Content-CostSaving1-Desc" data-aos="fade-up" data-aos-offset="100">
+                                Meningkatkan efisiensi biaya operasional untuk kebutuhan bisnis anda.
+                            </h3>
                         </div>
                         <div
                             style={{
                                 marginLeft: "45px",
                             }}
                         >
-                            <p className="SPL-LandingPage-Section5-Content-CostSaving1-Title">Cost-saving practices</p>
-                            <h3 className="SPL-LandingPage-Section5-Content-CostSaving1-Desc">Meningkatkan efisiensi biaya operasional untuk kebutuhan bisnis anda.</h3>
+                            <p className="SPL-LandingPage-Section5-Content-CostSaving1-Title" data-aos="fade-up" data-aos-offset="100">
+                                Cost-saving practices
+                            </p>
+                            <h3 className="SPL-LandingPage-Section5-Content-CostSaving1-Desc" data-aos="fade-up" data-aos-offset="100">
+                                Meningkatkan efisiensi biaya operasional untuk kebutuhan bisnis anda.
+                            </h3>
                         </div>
                     </div>
                 </div>
