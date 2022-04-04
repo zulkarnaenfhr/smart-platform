@@ -6,7 +6,7 @@ class SmartPlatformLandingpageSection4 extends Component {
     render() {
         return (
             <div id="SPL-LandingPage-Section4">
-                <div className="SPL-LandingPage-Section4-Scroll-Container">
+                <div className="SPL-LandingPage-Section4-Scroll-Container" data-aos="fade-up" data-aos-offset="200">
                     <div className="SPL-LandingPage-Section4-Scroll-Header-Container">
                         <div className="SPL-LandingPage-Section4-Scroll-Header-Title">
                             What we’re offering Services{" "}
