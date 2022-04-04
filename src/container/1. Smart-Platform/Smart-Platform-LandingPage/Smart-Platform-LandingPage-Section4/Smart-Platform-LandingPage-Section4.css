@@ -56,7 +56,11 @@
 
 .SPL-LandingPage-Section4-Scroll-Content-Container {
     height: 777px;
-    border: 1px solid black;
     overflow: auto;
     overflow-x: hidden;
+}
+
+.SPL-LandingPage-Section4-Scroll-Vector {
+    margin-top: 64px;
+    margin-left: 332px;
 }

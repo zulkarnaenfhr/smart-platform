@@ -46,6 +46,9 @@ class SmartPlatformLandingpageSection4 extends Component {
                             desc={`Dengan memanfaatkan teknologi 4.0 dalam mengelola dan menganalisa data dengan tepat, bisa menjadi peluang untuk melahirkan sebuah informasi yang tepat guna dan tepat sasaran.`}
                         />
                     </div>
+                    <div className="SPL-LandingPage-Section4-Scroll-Vector-Container">
+                        <img className="SPL-LandingPage-Section4-Scroll-Vector" src="https://i.ibb.co/cYbZrb5/panah-bawah-merah.png" alt="panah-bawah-merah" border="0"></img>
+                    </div>
                 </div>
                 <img className="SPL-LandingPage-Section4-Background" src="https://i.ibb.co/ncDFSH9/Section-3-Background.png" alt="Section-3-Background" border="0"></img>
             </div>
