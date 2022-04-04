@@ -15,3 +15,41 @@
     left: 409px;
     margin-top: 40px;
 }
+
+.SPL-LandingPage-Section4-Scroll-Container {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 695px;
+    height: 1105px;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 6px 3px rgba(207, 207, 207, 0.25);
+    border-radius: 5px;
+    margin-left: 136px;
+    margin-top: 20px;
+}
+
+.SPL-LandingPage-Section4-Scroll-Header-Container {
+    height: 205px;
+    border-bottom: 1px solid black;
+}
+
+.SPL-LandingPage-Section4-Scroll-Header-Tittle {
+    position: absolute;
+    width: 488px;
+    height: 120px;
+    left: 64px;
+    top: 42px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 115%;
+    /* or 40px */
+
+    text-transform: capitalize;
+
+    color: #484848;
+    letter-spacing: 0.5px;
+}
