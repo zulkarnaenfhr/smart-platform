@@ -4,6 +4,7 @@
     border: 1px solid red;
     background-color: white;
     margin-top: 60px;
+    font-family: "Poppins", sans-serif;
 }
 
 .SPL-LandingPage-Section4-Background {
@@ -31,10 +32,9 @@
 
 .SPL-LandingPage-Section4-Scroll-Header-Container {
     height: 205px;
-    border-bottom: 1px solid black;
 }
 
-.SPL-LandingPage-Section4-Scroll-Header-Tittle {
+.SPL-LandingPage-Section4-Scroll-Header-Title {
     position: absolute;
     width: 488px;
     height: 120px;
@@ -52,4 +52,11 @@
 
     color: #484848;
     letter-spacing: 0.5px;
+}
+
+.SPL-LandingPage-Section4-Scroll-Content-Container {
+    height: 777px;
+    border: 1px solid black;
+    overflow: auto;
+    overflow-x: hidden;
 }

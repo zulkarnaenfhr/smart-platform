@@ -1,0 +1,35 @@
+#ScrollCardSPLLandingPage {
+    height: 231px;
+    background-color: #f9f9f9;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 21px;
+}
+
+.ScrollCardSPLLandingPage-logo {
+    width: 75.48px;
+    height: 61.27px;
+    position: relative;
+    left: 86.52px;
+    top: 102.29px;
+}
+
+.ScrollCardSPLLandingPage-Text-Container {
+    margin-left: 133px;
+    margin-top: 27px;
+}
+
+.ScrollCardSPLLandingPage-Text-Container h1 {
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: 0.005em;
+}
+
+.ScrollCardSPLLandingPage-Text-Container p {
+    width: 391px;
+    font-size: 17px;
+    letter-spacing: 0.005em;
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 14px;
+}
