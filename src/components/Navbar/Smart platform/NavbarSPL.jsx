@@ -1,8 +1,8 @@
 import React, { Component } from "react";
+import "./NavbarSPL.css";
 import { Link } from "react-router-dom";
-import "./Navbar.css";
 
-class Navbar extends Component {
+class Navbarspl extends Component {
     render() {
         return (
             <div id="navbarSpl" data-aos="fade-up" data-aos-offset="200" data-aos-delay="0">
@@ -249,13 +249,11 @@ class Navbar extends Component {
                 </div>
                 <div className="navbarButton-container">
                     <button className="navbarButton buttonDemo">DEMO APPS</button>
-                    <button className="navbarButton navbarContactUs" style={{ color: this.props.colorContactUs, backgroundColor: this.props.backgroundContactUs, borderColor: "transparent" }}>
-                        CONTACT US
-                    </button>
+                    <button className="navbarButton navbarContactUs">CONTACT US</button>
                 </div>
             </div>
         );
     }
 }
 
-export default Navbar;
+export default Navbarspl;

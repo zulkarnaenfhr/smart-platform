@@ -10,13 +10,14 @@
 .navbarLogo {
     width: 216px;
     height: 73px;
-    margin-left: 72px;
+    /* margin-left: 72px; */
+    margin-left: 118px;
     margin-top: 11px;
 }
 
 .navbarMenu-container {
     display: flex;
-    margin-left: 80px;
+    margin-left: 53px;
     height: 94px;
     margin-top: 10px;
     align-items: center;
@@ -54,7 +55,7 @@
     height: 94px;
     display: flex;
     align-items: center;
-    margin-left: 125px;
+    margin-left: 45px;
 }
 
 .navbarButton {
@@ -67,11 +68,27 @@
 }
 
 .navbarButton:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 4px 0px rgb(0, 0, 0, 0.3);
+    /* transform: scale(1.05);
+    box-shadow: 0 4px 4px 0px rgb(0, 0, 0, 0.3); */
+    border: #d23d3d;
+    color: white;
+    background-color: #d23d3d;
 }
 
 .buttonDemo {
+    border: 1px solid #d23d3d;
+    color: #d23d3d;
+    background-color: transparent;
+}
+
+.navbarContactUs {
+    border: 1px solid #d23d3d;
+    color: white;
+    background-color: #d23d3d;
+    margin-left: 12px;
+}
+
+.navbarContactUs:hover {
     border: 1px solid #d23d3d;
     color: #d23d3d;
     background-color: transparent;
