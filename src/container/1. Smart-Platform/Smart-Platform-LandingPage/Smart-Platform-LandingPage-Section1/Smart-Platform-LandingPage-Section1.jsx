@@ -15,7 +15,24 @@ class SmartPlatformLandingpageSection1 extends Component {
                     <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="600">
                         <h4 data-aos="fade-up">BOOST YOUR BUSINESS VALUE</h4>
                         <a href="#SPL-LandingPage-Section2">
-                            <button className="SPL-LandingPage-Section1-button-SeeDetails">See Details</button>
+                            <button className="SPL-LandingPage-Section1-button-SeeDetails">
+                                See Details{" "}
+                                {/* <span
+                                    style={{
+                                        fontSize: "20px",
+                                    }}
+                                >
+                                    ˅
+                                </span> */}
+                                <img
+                                    style={{
+                                        marginLeft: "5px",
+                                    }}
+                                    src="https://i.ibb.co/Bq9580y/panah-bawah.png"
+                                    alt="panah-bawah"
+                                    border="0"
+                                ></img>
+                            </button>
                         </a>
                     </div>
                 </div>

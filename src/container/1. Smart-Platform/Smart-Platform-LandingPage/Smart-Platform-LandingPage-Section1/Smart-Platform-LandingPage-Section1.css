@@ -8,9 +8,9 @@
     position: absolute;
     width: 1094px;
     height: 898px;
-    opacity: 0.63;
+    opacity: 1;
     top: 400px;
-    left: 173px;
+    left: 220px;
     z-index: -2;
 }
 
@@ -47,6 +47,8 @@
     display: inline-block;
     transition: all 0.3s ease-in-out;
     letter-spacing: 0.5px;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 
 .SPL-LandingPage-Section1-Text-container button:hover {
