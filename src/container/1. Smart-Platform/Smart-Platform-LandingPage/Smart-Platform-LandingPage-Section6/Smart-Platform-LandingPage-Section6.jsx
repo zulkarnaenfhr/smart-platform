@@ -4,7 +4,7 @@ import "./Smart-Platform-LandingPage-Section6.css";
 class SmartPlatformLandingpageSection6 extends Component {
     render() {
         return (
-            <div id="SPL-LandingPage-Section6">
+            <div id="SPL-LandingPage-Section6" data-aos="fade-up" data-aos-offset="100">
                 <h1 className="SPL-LandingPage-Section6-title">Customer</h1>
                 <div
                     className="SPL-LandingPage-Section6-logo-row1"
