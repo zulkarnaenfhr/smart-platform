@@ -7,6 +7,7 @@ import SmartPlatformLandingpageSection4 from "./Smart-Platform-LandingPage-Secti
 import SmartPlatformLandingpageSection5 from "./Smart-Platform-LandingPage-Section5/Smart-Platform-LandingPage-Section5";
 import SmartPlatformLandingpageSection6 from "./Smart-Platform-LandingPage-Section6/Smart-Platform-LandingPage-Section6";
 import SmartPlatformLandingpageSection7 from "./Smart-Platform-LandingPage-Section7/Smart-Platform-LandingPage-Section7";
+import SmartPlatformLandingpageSection8 from "./Smart-Platform-LandingPage-Section8/Smart-Platform-LandingPage-Section8";
 import "./SmartPlatformLandingPage.css";
 
 class Smartplatformlandingpage extends Component {
@@ -26,6 +27,7 @@ class Smartplatformlandingpage extends Component {
                     <SmartPlatformLandingpageSection5 />
                     <SmartPlatformLandingpageSection6 />
                     <SmartPlatformLandingpageSection7 />
+                    <SmartPlatformLandingpageSection8 />
                     <h1>masuk batas bawah</h1>
                 </div>
             </div>

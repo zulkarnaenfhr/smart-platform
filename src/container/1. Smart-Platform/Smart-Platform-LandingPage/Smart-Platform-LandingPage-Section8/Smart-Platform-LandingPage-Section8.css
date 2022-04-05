@@ -1,0 +1,34 @@
+#SPL-LandingPage-Section8 {
+    height: 456px;
+    border: 1px solid red;
+    padding-left: 157px;
+    font-family: "Poppins", sans-serif;
+}
+
+.SPL-LandingPage-Section8-SPL-Logo {
+    width: 314px;
+    height: 106px;
+    margin-top: 55px;
+    margin-left: -20px;
+}
+
+.SPL-LandingPage-Section8-SPL-ColLeft-Row1 {
+    width: 329px;
+    margin-top: 23px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #484848;
+}
+
+.SPL-LandingPage-Section8-SPL-ColLeft-Row2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 30px;
+}
+
+.SPL-LandingPage-Section8-SPL-ColLeft-Row3 {
+    margin-top: -9px;
+}
