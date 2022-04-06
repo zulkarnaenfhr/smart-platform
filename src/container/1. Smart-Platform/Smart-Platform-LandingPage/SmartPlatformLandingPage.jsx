@@ -16,7 +16,6 @@ class Smartplatformlandingpage extends Component {
         return (
             <div>
                 <div className="SPL-LandingPage-navbar-container">
-                    {/* <Navbarspl linkLogo={`https://i.ibb.co/k4WFRLW/Logo-Navbar.png`} colorFreeTrial={`white`} backgroundFreeTrial={`#D23D3D`} colorContactUs={`white`} backgroundContactUs={`#D23D3D`} /> */}
                     <Navbarspl linkLogo={require("../../../src/Smart-Platform/Landing Page/Logo-Navbar.png")} colorFreeTrial={`white`} backgroundFreeTrial={`#D23D3D`} colorContactUs={`white`} backgroundContactUs={`#D23D3D`} />{" "}
                 </div>
                 <div className="SPL-LandingPage-content-container">
@@ -32,6 +31,7 @@ class Smartplatformlandingpage extends Component {
                     <SmartPlatformLandingpageSection8 />
                     <h1>masuk batas bawah</h1>
                 </div>
+                <img className="SPL-LandingPage-Section7-Background2" src={require("../../../src/Smart-Platform/Landing Page/Section-7-Background2.png")} alt="" />
             </div>
         );
     }

@@ -5,13 +5,15 @@ class SmartPlatformLandingpageSection8 extends Component {
     render() {
         return (
             <div id="SPL-LandingPage-Section8">
-                <img className="SPL-LandingPage-Section8-SPL-Logo" src="https://i.ibb.co/k4WFRLW/Logo-Navbar.png" alt="Logo-Navbar" border="0"></img>
+                <img className="SPL-LandingPage-Section8-SPL-Logo" src={require("../../../../src/Smart-Platform/LogoSmartPlatform.png")} alt="Logo-Navbar" border="0"></img>
                 <div
+                    className="row"
                     style={{
                         display: "flex",
                     }}
                 >
                     <div
+                        className="col-4"
                         style={{
                             display: "flex",
                         }}
@@ -22,21 +24,25 @@ class SmartPlatformLandingpageSection8 extends Component {
                                 Jl. Gegerkalong Hilir no. 47, Sukasari, Kota <br /> Bandung, Jawa Barat 40152
                             </p>
                             <p className="SPL-LandingPage-Section8-SPL-ColLeft-Row3">(022) 4571261</p>
-                            <p>admin@SPL.id</p>
+                            <p className="SPL-LandingPage-Section8-SPL-ColLeft-Row4">admin@SPL.id</p>
                         </div>
                     </div>
                     <div
+                        className="col-4"
                         style={{
                             display: "flex",
                         }}
                     >
                         <div>
-                            <p className="SPL-LandingPage-Section8-SPL-ColMid-Row1">Ikuti Social Media Kami</p>
-                            <p className="SPL-LandingPage-Section8-SPL-ColMid-Row2">
-                                Jl. Gegerkalong Hilir no. 47, Sukasari, Kota <br /> Bandung, Jawa Barat 40152
+                            <p className="SPL-LandingPage-Section8-SPL-ColMid-Row1">
+                                Ikuti Social Media Kami <br />
+                                <i class="fa-brands fa-linkedin"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-facebook-square"></i>
                             </p>
-                            <p className="SPL-LandingPage-Section8-SPL-ColMid-Row3">(022) 4571261</p>
-                            <p>admin@SPL.id</p>
+                            <p className="SPL-LandingPage-Section8-SPL-ColMid-Row2">id.smartplatform </p>
+                            <p className="SPL-LandingPage-Section8-SPL-ColMid-Row3">Contact Integrated Dashboard Smart Governments</p>
                         </div>
                     </div>
                 </div>

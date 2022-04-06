@@ -1,7 +1,13 @@
 #SPL-LandingPage-Section7 {
     height: 373px;
     background-color: #484848;
-    font-family: "Poppins", sans-serif;
+}
+
+.SPL-LandingPage-Section7-Background {
+    position: absolute;
+    width: 794.42px;
+    margin-left: 740.86px;
+    margin-top: 23px;
 }
 
 .SPL-LandingPage-Section7-Title {
