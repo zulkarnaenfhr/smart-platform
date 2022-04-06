@@ -23,10 +23,14 @@ class Cardspllandingpage extends Component {
                         }}
                         src={this.props.logoImg}
                         alt=""
+                        loading="lazy"
                     />
-                    <p style={{
-                        marginTop: `${this.props.marginTopDesc}`
-                    }} className="CardSPLLandingPage-Desc">
+                    <p
+                        style={{
+                            marginTop: `${this.props.marginTopDesc}`,
+                        }}
+                        className="CardSPLLandingPage-Desc"
+                    >
                         {" "}
                         <b>{this.props.productName}</b> {this.props.productDesc}
                     </p>
