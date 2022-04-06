@@ -9,9 +9,9 @@ class SmartPlatformLandingpageSection7 extends Component {
                 <h1 data-aos="fade-up" data-aos-offset="100" className="SPL-LandingPage-Section7-Title">
                     Embark Your AI Journey with Smart platform Now!
                 </h1>
-                <button data-aos="fade-up" data-aos-offset="100" className="SPL-LandingPage-Section7-Contact-Us">
-                    Contact Us
-                </button>
+                <div data-aos="fade-up" data-aos-offset="100">
+                    <button className="SPL-LandingPage-Section7-Contact-Us">Contact Us</button>
+                </div>
             </div>
         );
     }

@@ -16,15 +16,12 @@
     position: absolute;
     left: 137px;
     margin-top: 81px;
-
     font-style: normal;
     font-family: poppins-700;
     font-size: 40px;
     line-height: 100%;
     letter-spacing: 0.75px;
-
     text-transform: uppercase;
-
     color: #ffffff;
 }
 
@@ -43,4 +40,11 @@
     font-size: 17px;
     letter-spacing: 0.5px;
     font-family: poppins-700;
+    transition: all 0.4s ease-in-out;
+}
+
+.SPL-LandingPage-Section7-Contact-Us:hover {
+    color: #d23d3d;
+    background-color: transparent;
+    border: 1px solid white;
 }
