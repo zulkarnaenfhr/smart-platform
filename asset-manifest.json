@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/smart-platform/static/css/main.761bce33.css",
+    "main.css": "/smart-platform/static/css/main.f26f5c55.css",
     "main.js": "/smart-platform/static/js/main.b13a2c9d.js",
     "static/js/787.a2acb59d.chunk.js": "/smart-platform/static/js/787.a2acb59d.chunk.js",
+    "static/media/poppins.thin.ttf": "/smart-platform/static/media/poppins.thin.64d0758f6032bbe9823d.ttf",
+    "static/media/poppins.bold.ttf": "/smart-platform/static/media/poppins.bold.e2abc8f5e9a67ea669ea.ttf",
     "index.html": "/smart-platform/index.html",
-    "main.761bce33.css.map": "/smart-platform/static/css/main.761bce33.css.map",
+    "main.f26f5c55.css.map": "/smart-platform/static/css/main.f26f5c55.css.map",
     "main.b13a2c9d.js.map": "/smart-platform/static/js/main.b13a2c9d.js.map",
     "787.a2acb59d.chunk.js.map": "/smart-platform/static/js/787.a2acb59d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.761bce33.css",
+    "static/css/main.f26f5c55.css",
     "static/js/main.b13a2c9d.js"
   ]
 }
