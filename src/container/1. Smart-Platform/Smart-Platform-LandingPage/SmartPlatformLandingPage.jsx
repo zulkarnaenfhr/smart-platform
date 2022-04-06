@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Footerspl from "../../../components/Footer/Smart-Platform/FooterSPL";
 import Navbarspl from "../../../components/Navbar/Smart platform/NavbarSPL";
 import SmartPlatformLandingpageSection1 from "./Smart-Platform-LandingPage-Section1/Smart-Platform-LandingPage-Section1";
 import SmartPlatformLandingpageSection2 from "./Smart-Platform-LandingPage-Section2/Smart-Platform-LandingPage-Section2";
@@ -29,9 +30,9 @@ class Smartplatformlandingpage extends Component {
                     <SmartPlatformLandingpageSection6 />
                     <SmartPlatformLandingpageSection7 />
                     <SmartPlatformLandingpageSection8 />
-                    <h1>masuk batas bawah</h1>
                 </div>
                 <img className="SPL-LandingPage-Section7-Background2" src={require("../../../src/Smart-Platform/Landing Page/Section-7-Background2.png")} alt="" />
+                <Footerspl />
             </div>
         );
     }

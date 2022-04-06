@@ -1,0 +1,12 @@
+#SPL-LandingPage-FooterSPL {
+    height: 100px;
+    background-color: #d34a4a;
+}
+
+#SPL-LandingPage-FooterSPL > p {
+    padding-top: 46px;
+    text-align: center;
+    font-family: poppins-400;
+    font-size: 16px;
+    color: white;
+}
