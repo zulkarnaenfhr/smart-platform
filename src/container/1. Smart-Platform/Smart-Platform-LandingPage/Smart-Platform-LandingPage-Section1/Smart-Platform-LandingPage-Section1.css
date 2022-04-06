@@ -1,3 +1,13 @@
+@font-face {
+    font-family: poppins-thin;
+    src: url("../../../../src/font/poppins.thin.ttf");
+}
+
+@font-face {
+    font-family: poppins-bold;
+    src: url("../../../../src/font/poppins.bold.ttf");
+}
+
 #SPL-LandingPage-Section1 {
     height: 745px;
     width: 100vw;
@@ -23,10 +33,12 @@
 
 .SPL-LandingPage-Section1-Text-container h3 {
     font-size: 30px;
+    font-family: poppins-bold;
 }
 
 .SPL-LandingPage-Section1-Text-container h1 {
     font-size: 50px;
+    font-family: poppins-thin;
     font-weight: 900;
 }
 
