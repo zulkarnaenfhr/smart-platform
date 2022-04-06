@@ -5,17 +5,16 @@
 }
 
 .SPL-LandingPage-Section7-Title {
-    width: 542px;
+    width: 602px;
     height: 120px;
     position: absolute;
     left: 137px;
     margin-top: 81px;
 
     font-style: normal;
-    font-weight: 700;
+    font-family: poppins-700;
     font-size: 40px;
     line-height: 100%;
-    /* or 40px */
     letter-spacing: 0.75px;
 
     text-transform: uppercase;
@@ -37,5 +36,5 @@
     color: white;
     font-size: 17px;
     letter-spacing: 0.5px;
-    font-weight: 700;
+    font-family: poppins-700;
 }
