@@ -1,5 +1,8 @@
 SPL Landing Page Section 8 Done
 
+SPL Landing Page Offline File Vector Section 2
+
+
 font always Poppins
 
 font face di import di style.css

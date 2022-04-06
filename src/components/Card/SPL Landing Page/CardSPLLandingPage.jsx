@@ -14,8 +14,19 @@ class Cardspllandingpage extends Component {
                     <button className="CardSPLLandingPage-Button">View More</button>
                 </Link>
                 <div>
-                    <img className="CardSPLLandingPage-Logo" src={this.props.logoImg} alt="" />
-                    <p className="CardSPLLandingPage-Desc">
+                    <img
+                        style={{
+                            marginTop: `${this.props.marginTop}`,
+                            marginLeft: `${this.props.marginLeft}`,
+                            width: `${this.props.width}`,
+                            height: `${this.props.height}`,
+                        }}
+                        src={this.props.logoImg}
+                        alt=""
+                    />
+                    <p style={{
+                        marginTop: `${this.props.marginTopDesc}`
+                    }} className="CardSPLLandingPage-Desc">
                         {" "}
                         <b>{this.props.productName}</b> {this.props.productDesc}
                     </p>

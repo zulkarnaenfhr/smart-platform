@@ -2,22 +2,17 @@
     width: 373px;
     height: 353px;
     border: 1px solid transparent;
-    padding-left: 42px;
-    padding-right: 42px;
     box-shadow: 0px 0px 6px 3px rgba(207, 207, 207, 0.25);
     border-radius: 5px;
     background-color: white;
 }
 
-.CardSPLLandingPage-Logo {
-    margin-top: 37px;
-}
-
 .CardSPLLandingPage-Desc {
-    margin-top: 49px;
     font-family: poppins-400;
     text-align: justify;
     font-size: 12px;
+    padding-left: 42px;
+    padding-right: 42px;
 }
 
 .CardSPLLandingPage-Button {
