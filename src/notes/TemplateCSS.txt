@@ -1,0 +1,9 @@
+font always Poppins
+
+poppins-medium for {
+    font weight 500
+}
+
+poppins thin for {
+    font weight 400
+}
