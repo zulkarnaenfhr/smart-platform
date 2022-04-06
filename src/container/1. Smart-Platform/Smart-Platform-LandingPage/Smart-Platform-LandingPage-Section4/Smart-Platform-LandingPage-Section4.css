@@ -3,13 +3,10 @@
     height: 1180px;
     background-color: white;
     margin-top: 60px;
-    font-family: "Poppins", sans-serif;
 }
 
 .SPL-LandingPage-Section4-Background {
     position: absolute;
-    /* width: 1000px;
-    height: 945px; */
     width: 1080px;
     height: 945px;
     left: 409px;
@@ -39,16 +36,11 @@
     height: 120px;
     left: 64px;
     top: 42px;
-
-    font-family: "Poppins";
     font-style: normal;
-    font-weight: 700;
+    font-family: poppins-700;
     font-size: 35px;
     line-height: 115%;
-    /* or 40px */
-
     text-transform: capitalize;
-
     color: #484848;
     letter-spacing: 0.5px;
 }
