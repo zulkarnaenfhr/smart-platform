@@ -1,9 +1,7 @@
 font always Poppins
 
-poppins-medium for {
-    font weight 500
-}
+font face di import di style.css
 
-poppins thin for {
-    font weight 400
+cek dulu if yang mau digunakan ada {
+    font-family: poppins-weightnya
 }

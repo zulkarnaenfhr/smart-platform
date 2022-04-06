@@ -1,7 +1,6 @@
 #SPL-LandingPage-Section1 {
     height: 745px;
     width: 100vw;
-    font-family: "Poppins", sans-serif;
 }
 
 .SPL-LandingPage-Section1-Background {
@@ -23,18 +22,18 @@
 
 .SPL-LandingPage-Section1-Text-container h3 {
     font-size: 30px;
-    font-family: poppins-medium;
+    font-family: poppins-500;
 }
 
 .SPL-LandingPage-Section1-Text-container h1 {
     font-size: 50px;
-    font-family: poppins-thin;
-    font-weight: 900;
+    font-family: poppins-700;
 }
 
 .SPL-LandingPage-Section1-Text-container h4 {
     font-size: 22px;
     margin-top: 24px;
+    font-family: poppins-500;
 }
 
 .SPL-LandingPage-Section1-Text-container button {
@@ -46,9 +45,10 @@
     border: 1px solid transparent;
     margin-top: 54px;
     color: white;
+    font-family: poppins-700;
     display: inline-block;
     transition: all 0.3s ease-in-out;
-    letter-spacing: 0.5px;
+    /* letter-spacing: 0.5px; */
     font-weight: 600;
     letter-spacing: 2px;
 }
