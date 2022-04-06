@@ -22,7 +22,7 @@ class SmartPlatformLandingpageSection6 extends Component {
                             width: "184px",
                             height: "142px",
                         }}
-                        src="https://i.ibb.co/DKHGY1T/Section-6-Telkom-Indonesia.png"
+                        src={require("../../../../src/Smart-Platform/Landing Page/Section-6-Telkom-Indonesia.png")}
                         alt="Section-6-Telkom-Indonesia"
                         border="0"
                     ></img>
@@ -33,7 +33,7 @@ class SmartPlatformLandingpageSection6 extends Component {
                             position: "relative",
                             left: "41px",
                         }}
-                        src="https://i.ibb.co/NCfH7fV/Section-6-Kemenkes.png"
+                        src={require("../../../../src/Smart-Platform/Landing Page/Section-6-Kemenkes.png")}
                         alt="Section-6-Kemenkes"
                         border="0"
                     ></img>
@@ -45,7 +45,7 @@ class SmartPlatformLandingpageSection6 extends Component {
                             left: "58px",
                             bottom: "10px",
                         }}
-                        src="https://i.ibb.co/zrWkbYV/Section-6-Sekretariat-Negara.png"
+                        src={require("../../../../src/Smart-Platform/Landing Page/Section-6-Seknat-Negara.png")}
                         alt="Section-6-Sekretariat-Negara"
                         border="0"
                     ></img>
@@ -57,7 +57,7 @@ class SmartPlatformLandingpageSection6 extends Component {
                             left: "74px",
                             bottom: "12px",
                         }}
-                        src="https://i.ibb.co/WnqfnRM/Section-6-Pertamina.png"
+                        src={require("../../../../src/Smart-Platform/Landing Page/Section-6-Pertamina.png")}
                         alt="Section-6-Pertamina"
                         border="0"
                     ></img>
@@ -73,14 +73,24 @@ class SmartPlatformLandingpageSection6 extends Component {
                         alignItems: "center",
                     }}
                 >
-                    <img src="https://i.ibb.co/Vjt5s5H/Section-6-Dishub.png" alt="Section-6-Dishub" border="0"></img>
                     <img
                         style={{
+                            width: "84px",
+                            height: "97px",
+                        }}
+                        src={require("../../../../src/Smart-Platform/Landing Page/Section-6-Dishub.png")}
+                        alt="Section-6-Dishub"
+                        border="0"
+                    ></img>
+                    <img
+                        style={{
+                            width: "203px",
+                            height: "105px",
                             position: "relative",
                             left: "37px",
                             bottom: "17px",
                         }}
-                        src="https://i.ibb.co/L09wzHC/Section-6-AHM.png"
+                        src={require("../../../../src/Smart-Platform/Landing Page/Section-6-AHM.png")}
                         alt="Section-6-AHM"
                         border="0"
                     ></img>
