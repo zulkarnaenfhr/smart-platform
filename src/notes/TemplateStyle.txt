@@ -1,4 +1,4 @@
-SPL Landing Page Offline File Vector Section 4 Done
+SPL Landing Page Offline File Vector Section 8 Done
 
 dont forget to input loading="lazy" on img tag
 

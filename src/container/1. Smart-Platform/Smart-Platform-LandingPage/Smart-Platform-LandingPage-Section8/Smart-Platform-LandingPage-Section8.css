@@ -51,7 +51,7 @@
 }
 
 .SPL-LandingPage-Section8-SPL-ColMid-Row1 i {
-    font-size: 24px;
+    font-size: 27px;
     margin-top: 12px;
     margin-right: 9.9px;
 }
@@ -71,4 +71,9 @@
     font-family: poppins-400;
     font-size: 16px;
     line-height: 20px;
+}
+
+.SPL-LandingPage-Section8-SPL-RightMid {
+    width: 318px;
+    height: 230px;
 }

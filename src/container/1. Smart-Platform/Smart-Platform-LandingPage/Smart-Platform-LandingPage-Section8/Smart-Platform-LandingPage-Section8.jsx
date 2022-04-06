@@ -45,6 +45,7 @@ class SmartPlatformLandingpageSection8 extends Component {
                             <p className="SPL-LandingPage-Section8-SPL-ColMid-Row3">Contact Integrated Dashboard Smart Governments</p>
                         </div>
                     </div>
+                    <img className="SPL-LandingPage-Section8-SPL-RightMid" src={require("../../../../src/Smart-Platform/Landing Page/Section-8-LogoRight.png")} alt="" />
                 </div>
             </div>
         );
