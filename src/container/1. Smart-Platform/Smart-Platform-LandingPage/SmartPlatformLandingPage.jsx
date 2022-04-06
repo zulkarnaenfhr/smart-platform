@@ -9,13 +9,15 @@ import SmartPlatformLandingpageSection6 from "./Smart-Platform-LandingPage-Secti
 import SmartPlatformLandingpageSection7 from "./Smart-Platform-LandingPage-Section7/Smart-Platform-LandingPage-Section7";
 import SmartPlatformLandingpageSection8 from "./Smart-Platform-LandingPage-Section8/Smart-Platform-LandingPage-Section8";
 import "./SmartPlatformLandingPage.css";
+// import "../../../src/Smart-Platform/Landing Page/"
 
 class Smartplatformlandingpage extends Component {
     render() {
         return (
             <div>
                 <div className="SPL-LandingPage-navbar-container">
-                    <Navbarspl linkLogo={`https://i.ibb.co/k4WFRLW/Logo-Navbar.png`} colorFreeTrial={`white`} backgroundFreeTrial={`#D23D3D`} colorContactUs={`white`} backgroundContactUs={`#D23D3D`} />
+                    {/* <Navbarspl linkLogo={`https://i.ibb.co/k4WFRLW/Logo-Navbar.png`} colorFreeTrial={`white`} backgroundFreeTrial={`#D23D3D`} colorContactUs={`white`} backgroundContactUs={`#D23D3D`} /> */}
+                    <Navbarspl linkLogo={require("../../../src/Smart-Platform/Landing Page/Logo-Navbar.png")} colorFreeTrial={`white`} backgroundFreeTrial={`#D23D3D`} colorContactUs={`white`} backgroundContactUs={`#D23D3D`} />{" "}
                 </div>
                 <div className="SPL-LandingPage-content-container">
                     <SmartPlatformLandingpageSection1 />

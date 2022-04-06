@@ -17,13 +17,6 @@ class SmartPlatformLandingpageSection1 extends Component {
                         <a href="#SPL-LandingPage-Section2">
                             <button className="SPL-LandingPage-Section1-button-SeeDetails">
                                 See Details{" "}
-                                {/* <span
-                                    style={{
-                                        fontSize: "20px",
-                                    }}
-                                >
-                                    ˅
-                                </span> */}
                                 <img
                                     style={{
                                         marginLeft: "5px",
@@ -36,7 +29,16 @@ class SmartPlatformLandingpageSection1 extends Component {
                         </a>
                     </div>
                 </div>
-                <img className="SPL-LandingPage-Section1-Background" src="https://i.ibb.co/VHxvryq/Section-1-Background.png" alt="Section-1-Background" border="0"></img>
+                {/* <img className="SPL-LandingPage-Section1-Background" src="https://i.ibb.co/VHxvryq/Section-1-Background.png" alt="Section-1-Background" border="0"></img> */}
+                <img
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="100"
+                    className="SPL-LandingPage-Section1-Background"
+                    src={require("../../../../src/Smart-Platform/Landing Page/Section-1-Background.png")}
+                    alt="Section-1-Background"
+                    border="0"
+                ></img>
             </div>
         );
     }
