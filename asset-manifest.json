@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/smart-platform/static/css/main.f26f5c55.css",
-    "main.js": "/smart-platform/static/js/main.b13a2c9d.js",
+    "main.css": "/smart-platform/static/css/main.53c00a10.css",
+    "main.js": "/smart-platform/static/js/main.713b8b97.js",
     "static/js/787.a2acb59d.chunk.js": "/smart-platform/static/js/787.a2acb59d.chunk.js",
-    "static/media/poppins.thin.ttf": "/smart-platform/static/media/poppins.thin.64d0758f6032bbe9823d.ttf",
-    "static/media/poppins.bold.ttf": "/smart-platform/static/media/poppins.bold.e2abc8f5e9a67ea669ea.ttf",
+    "static/media/Poppins-Regular.ttf": "/smart-platform/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-Medium.ttf": "/smart-platform/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
+    "static/media/Poppins-Bold.ttf": "/smart-platform/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
     "index.html": "/smart-platform/index.html",
-    "main.f26f5c55.css.map": "/smart-platform/static/css/main.f26f5c55.css.map",
-    "main.b13a2c9d.js.map": "/smart-platform/static/js/main.b13a2c9d.js.map",
+    "main.53c00a10.css.map": "/smart-platform/static/css/main.53c00a10.css.map",
+    "main.713b8b97.js.map": "/smart-platform/static/js/main.713b8b97.js.map",
     "787.a2acb59d.chunk.js.map": "/smart-platform/static/js/787.a2acb59d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f26f5c55.css",
-    "static/js/main.b13a2c9d.js"
+    "static/css/main.53c00a10.css",
+    "static/js/main.713b8b97.js"
   ]
 }
