@@ -3,21 +3,19 @@
     width: 100vw;
     box-shadow: 0 4px 4px 0px rgb(0, 0, 0, 0.11);
     display: flex;
-    font-family: "Poppins", sans-serif;
     background-color: white;
 }
 
 .navbarLogo {
     width: 216px;
     height: 73px;
-    /* margin-left: 72px; */
     margin-left: 118px;
     margin-top: 11px;
 }
 
 .navbarMenu-container {
     display: flex;
-    margin-left: 53px;
+    margin-left: 163px;
     height: 94px;
     margin-top: 10px;
     align-items: center;
@@ -27,7 +25,9 @@
     color: black;
     text-decoration: none;
     margin-right: 30px;
-    font-size: 17px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: poppins-500;
 }
 
 .navbarMenu:hover {
@@ -55,10 +55,11 @@
     height: 94px;
     display: flex;
     align-items: center;
-    margin-left: 45px;
+    margin-left: 4px;
 }
 
 .navbarButton {
+    font-family: poppins-500;
     width: 122px;
     height: 35px;
     border-radius: 17px;
@@ -68,8 +69,6 @@
 }
 
 .navbarButton:hover {
-    /* transform: scale(1.05);
-    box-shadow: 0 4px 4px 0px rgb(0, 0, 0, 0.3); */
     border: #d23d3d;
     color: white;
     background-color: #d23d3d;
