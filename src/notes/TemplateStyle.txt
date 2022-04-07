@@ -1,5 +1,3 @@
-SPL Landing Page Offline File Vector Section 8 Done
-
 dont forget to input loading="lazy" on img tag
 
 font always Poppins

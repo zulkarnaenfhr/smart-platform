@@ -17,7 +17,7 @@ class Smartplatformlandingpage extends Component {
         return (
             <div>
                 <div className="SPL-LandingPage-navbar-container">
-                    <Navbarspl linkLogo={require("../../../src/Smart-Platform/Landing Page/Logo-Navbar.png")} colorFreeTrial={`white`} backgroundFreeTrial={`#D23D3D`} colorContactUs={`white`} backgroundContactUs={`#D23D3D`} />{" "}
+                    <Navbarspl colorFreeTrial={`white`} backgroundFreeTrial={`#D23D3D`} colorContactUs={`white`} backgroundContactUs={`#D23D3D`} />{" "}
                 </div>
                 <div className="SPL-LandingPage-content-container">
                     <SmartPlatformLandingpageSection1 />

@@ -34,10 +34,91 @@
     color: #d23d3d;
 }
 
+.navbarMenuProduct {
+    position: relative;
+    bottom: 8.8px;
+    left: 15px;
+}
+
 .dropdown-menu-container {
     width: 253px;
     border-radius: 6px;
     height: 110px;
+}
+
+.dropdown-menu-container > table {
+    margin-left: 16px;
+    margin-top: 8.5px;
+}
+
+.dropdown-menu-container > table > tbody > .tr1 {
+    height: 10px;
+}
+
+.dropdown-menu-container > table > tbody > .tr1 > .td1 {
+    width: 140px;
+}
+
+.dropdown-menu-container > table > tbody > .tr2 {
+    position: relative;
+    bottom: 6.5px;
+}
+
+.dropdown-menu-container > table > tbody > .tr3 {
+    position: relative;
+    bottom: 12.5px;
+}
+
+.navbarMenuSolution {
+    margin-left: -25px;
+}
+
+.navbarMenuResources {
+    position: relative;
+    bottom: 8.8px;
+}
+
+.navbarMenuResources > .dropdown-menu {
+    height: 103px;
+    width: 152px;
+}
+
+.navbarMenuResources > .dropdown-menu > div {
+    margin-left: 16px;
+}
+
+.navbarMenuResources > .dropdown-menu > div > .FAQ {
+    position: relative;
+    bottom: 3px;
+}
+
+.navbarMenuResources > .dropdown-menu > div > .Support {
+    position: relative;
+    bottom: 6px;
+}
+
+.navbarMenuCompany {
+    margin-left: -45px;
+    margin-bottom: 16.8px;
+}
+
+.navbarMenuCompany > .dropdown-menu {
+    height: 103px;
+    width: 108px;
+}
+
+.navbarMenuCompany > .dropdown-menu > div {
+    margin-left: 16px;
+}
+
+.navbarMenuCompany > .dropdown-menu > .Blog {
+    position: relative;
+    bottom: 3px;
+}
+
+.navbarMenuCompany > .dropdown-menu > .Press {
+    position: relative;
+    bottom: 6px;
 }
 
 .Dropdown-Menu {

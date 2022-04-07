@@ -6,27 +6,17 @@ class Navbarspl extends Component {
     render() {
         return (
             <div id="navbarSpl" data-aos="fade-up" data-aos-offset="200" data-aos-delay="0">
-                <img className="navbarLogo" src={this.props.linkLogo} alt="" />
+                <img className="navbarLogo" src={require("../../../src/Smart-Platform/Landing Page/Logo-Navbar.png")} alt="" />
                 <div className="navbarMenu-container">
                     <div className="navbarMenu dropdown">
-                        <button
-                            style={{
-                                position: "relative",
-                                bottom: "8.8px",
-                                left: "15px",
-                            }}
-                            className="btn navbarMenu dropdown-toggle"
-                            type="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                        >
+                        <button className="btn navbarMenu navbarMenuProduct dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Product
                         </button>
                         <div className="dropdown-menu dropdown-menu-container" aria-labelledby="dropdownMenuButton1">
-                            <table style={{ marginLeft: "16px", marginTop: "8.5px" }}>
+                            <table>
                                 <tbody>
-                                    <tr style={{ height: "10px" }}>
-                                        <td style={{ width: "140px" }}>
+                                    <tr className="tr1">
+                                        <td className="td1">
                                             <Link
                                                 className="Dropdown-Menu"
                                                 to={{
@@ -47,12 +37,7 @@ class Navbarspl extends Component {
                                             </Link>
                                         </td>
                                     </tr>
-                                    <tr
-                                        style={{
-                                            position: "relative",
-                                            bottom: "6.5px",
-                                        }}
-                                    >
+                                    <tr className="tr2">
                                         <td>
                                             <Link
                                                 className="Dropdown-Menu"
@@ -74,12 +59,7 @@ class Navbarspl extends Component {
                                             </Link>
                                         </td>
                                     </tr>
-                                    <tr
-                                        style={{
-                                            position: "relative",
-                                            bottom: "12.5px",
-                                        }}
-                                    >
+                                    <tr className="tr3">
                                         <td>
                                             <Link
                                                 className="Dropdown-Menu"
@@ -106,10 +86,7 @@ class Navbarspl extends Component {
                         </div>
                     </div>
                     <Link
-                        style={{
-                            marginLeft: "-25px",
-                        }}
-                        className="navbarMenu"
+                        className="navbarMenu navbarMenuSolution"
                         to={{
                             pathname: `notset`,
                         }}
@@ -124,32 +101,12 @@ class Navbarspl extends Component {
                     >
                         <p>Partnership</p>
                     </Link>
-                    <div className="navbarMenu dropdown">
-                        <button
-                            style={{
-                                position: "relative",
-                                bottom: "8.8px",
-                            }}
-                            className="btn navbarMenu dropdown-toggle"
-                            type="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                        >
+                    <div className="navbarMenu dropdown navbarMenuResources">
+                        <button className="btn navbarMenu  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Resources
                         </button>
-                        <div
-                            className="dropdown-menu dropdown-menu-container"
-                            aria-labelledby="dropdownMenuButton1"
-                            style={{
-                                height: "103px",
-                                width: "152px",
-                            }}
-                        >
-                            <div
-                                style={{
-                                    marginLeft: "16px",
-                                }}
-                            >
+                        <div className="dropdown-menu dropdown-menu-container" aria-labelledby="dropdownMenuButton1">
+                            <div>
                                 <Link
                                     className="Dropdown-Menu"
                                     to={{
@@ -159,11 +116,7 @@ class Navbarspl extends Component {
                                     <p>Documentation</p>
                                 </Link>
                                 <Link
-                                    style={{
-                                        position: "relative",
-                                        bottom: "3px",
-                                    }}
-                                    className="Dropdown-Menu"
+                                    className="Dropdown-Menu FAQ"
                                     to={{
                                         pathname: `notset`,
                                     }}
@@ -171,11 +124,7 @@ class Navbarspl extends Component {
                                     <p>FAQ</p>
                                 </Link>
                                 <Link
-                                    style={{
-                                        position: "relative",
-                                        bottom: "6px",
-                                    }}
-                                    className="Dropdown-Menu"
+                                    className="Dropdown-Menu Support"
                                     to={{
                                         pathname: `notset`,
                                     }}
@@ -185,32 +134,12 @@ class Navbarspl extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="navbarMenu dropdown">
-                        <button
-                            style={{
-                                marginLeft: "-45px",
-                                marginBottom: "16.8px",
-                            }}
-                            className="btn navbarMenu dropdown-toggle"
-                            type="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                        >
+                    <div className="navbarMenu dropdown navbarMenuCompany">
+                        <button className="btn navbarMenu dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Company
                         </button>
-                        <div
-                            className="dropdown-menu dropdown-menu-container"
-                            aria-labelledby="dropdownMenuButton1"
-                            style={{
-                                height: "103px",
-                                width: "108px",
-                            }}
-                        >
-                            <div
-                                style={{
-                                    marginLeft: "16px",
-                                }}
-                            >
+                        <div className="dropdown-menu dropdown-menu-container" aria-labelledby="dropdownMenuButton1">
+                            <div>
                                 <Link
                                     className="Dropdown-Menu"
                                     to={{
@@ -220,11 +149,7 @@ class Navbarspl extends Component {
                                     <p>About SPL</p>
                                 </Link>
                                 <Link
-                                    style={{
-                                        position: "relative",
-                                        bottom: "3px",
-                                    }}
-                                    className="Dropdown-Menu"
+                                    className="Dropdown-Menu Blog"
                                     to={{
                                         pathname: `notset`,
                                     }}
@@ -232,11 +157,7 @@ class Navbarspl extends Component {
                                     <p>Blog</p>
                                 </Link>
                                 <Link
-                                    style={{
-                                        position: "relative",
-                                        bottom: "6px",
-                                    }}
-                                    className="Dropdown-Menu"
+                                    className="Dropdown-Menu Press"
                                     to={{
                                         pathname: `notset`,
                                     }}
