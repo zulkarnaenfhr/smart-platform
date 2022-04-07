@@ -9,14 +9,7 @@ class SmartPlatformLandingpageSection4 extends Component {
                 <div className="SPL-LandingPage-Section4-Scroll-Container" data-aos="fade-up" data-aos-offset="200">
                     <div className="SPL-LandingPage-Section4-Scroll-Header-Container">
                         <div className="SPL-LandingPage-Section4-Scroll-Header-Title">
-                            What we’re offering Services{" "}
-                            <span
-                                style={{
-                                    color: "#D23D3D",
-                                }}
-                            >
-                                we’re providing to our clients
-                            </span>
+                            What we’re offering Services <span>we’re providing to our clients</span>
                         </div>
                     </div>
                     <div className="SPL-LandingPage-Section4-Scroll-Content-Container">

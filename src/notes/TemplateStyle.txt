@@ -1,4 +1,4 @@
-move style in component SPL LandingPage Navbar
+move style in component SPL LandingPage Section 4 
 
 dont forget to input loading="lazy" on img tag
 

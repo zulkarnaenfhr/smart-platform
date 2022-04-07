@@ -45,6 +45,10 @@
     letter-spacing: 0.5px;
 }
 
+.SPL-LandingPage-Section4-Scroll-Header-Title > span {
+    color: #d23d3d;
+}
+
 .SPL-LandingPage-Section4-Scroll-Content-Container {
     height: 777px;
     overflow: auto;
