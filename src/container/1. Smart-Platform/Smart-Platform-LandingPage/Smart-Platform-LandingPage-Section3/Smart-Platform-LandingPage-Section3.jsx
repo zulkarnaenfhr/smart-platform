@@ -12,7 +12,7 @@ class SmartPlatformLandingpageSection3 extends Component {
                 <p data-aos="fade-up" data-aos-offset="100" className="SPL-LandingPage-Section3-Desc">
                     Discover how our products are implemented in real world situations and <br /> used in various use case through our interactive demo app.
                 </p>
-                <div data-aos="fade-up" style={{ width: "100vw", display: "flex", justifyContent: "center", marginTop: "50px" }}>
+                <div data-aos="fade-up" className="SPL-LandingPage-Section3-Button-Container">
                     <Link
                         to={{
                             pathname: `notset`,

@@ -20,6 +20,13 @@
     font-family: poppins-400;
 }
 
+.SPL-LandingPage-Section3-Button-Container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
 .SPL-LandingPage-Section3-Button {
     width: 321px;
     height: 47px;
