@@ -1,6 +1,18 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./CardSPLLandingPage.css";
+import styled from "styled-components";
+
+const CardSPLLandingPageLogo = styled.img`
+    width: ${(props) => props.width};
+    height: ${(props) => props.height};
+    margin-top: ${(props) => props.marginTop};
+    margin-left: ${(props) => props.marginLeft};
+`;
+
+const CardSPLLandingPageDesc = styled.p`
+    margin-top: ${(props) => props.marginTopDesc};
+`;
 
 class Cardspllandingpage extends Component {
     render() {
@@ -14,26 +26,10 @@ class Cardspllandingpage extends Component {
                     <button className="CardSPLLandingPage-Button">View More</button>
                 </Link>
                 <div>
-                    <img
-                        style={{
-                            marginTop: `${this.props.marginTop}`,
-                            marginLeft: `${this.props.marginLeft}`,
-                            width: `${this.props.width}`,
-                            height: `${this.props.height}`,
-                        }}
-                        src={this.props.logoImg}
-                        alt=""
-                        loading="lazy"
-                    />
-                    <p
-                        style={{
-                            marginTop: `${this.props.marginTopDesc}`,
-                        }}
-                        className="CardSPLLandingPage-Desc"
-                    >
-                        {" "}
+                    <CardSPLLandingPageLogo loading="lazy" src={this.props.logoImg} width={this.props.width} height={this.props.height} marginTop={this.props.marginTop} marginLeft={this.props.marginLeft} />
+                    <CardSPLLandingPageDesc marginTopDesc={this.props.marginTopDesc} className="CardSPLLandingPage-Desc">
                         <b>{this.props.productName}</b> {this.props.productDesc}
-                    </p>
+                    </CardSPLLandingPageDesc>
                 </div>
             </div>
         );
