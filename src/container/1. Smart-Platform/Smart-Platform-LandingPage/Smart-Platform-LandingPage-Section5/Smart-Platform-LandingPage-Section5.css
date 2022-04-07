@@ -13,6 +13,10 @@
     border-radius: 5px;
 }
 
+.SPL-LandingPage-Section5-Content-Vector-Container {
+    display: flex;
+}
+
 .SPL-LandingPage-Section5-Content-Container h1 {
     text-align: center;
     text-transform: uppercase;
@@ -47,7 +51,16 @@
 
 .SPL-LandingPage-Section5-Content-CostSaving-Title-Container {
     margin-top: 202px;
+    display: flex;
     margin-left: 67px;
+}
+
+.SPL-LandingPage-Section5-Content-CostSaving-Title-Container > .div2 {
+    margin-left: 45px;
+}
+
+.SPL-LandingPage-Section5-Content-CostSaving-Title-Container > .div3 {
+    margin-left: 45px;
 }
 
 .SPL-LandingPage-Section5-Content-CostSaving1-Title {
