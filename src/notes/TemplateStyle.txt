@@ -1,3 +1,5 @@
+move style in component SPL LandingPage Navbar
+
 dont forget to input loading="lazy" on img tag
 
 font always Poppins

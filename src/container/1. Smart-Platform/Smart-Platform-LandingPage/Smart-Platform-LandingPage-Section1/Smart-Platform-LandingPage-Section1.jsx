@@ -16,20 +16,11 @@ class SmartPlatformLandingpageSection1 extends Component {
                         <h4 data-aos="fade-up">BOOST YOUR BUSINESS VALUE</h4>
                         <a href="#SPL-LandingPage-Section2">
                             <button className="SPL-LandingPage-Section1-button-SeeDetails">
-                                See Details{" "}
-                                <img
-                                    style={{
-                                        marginLeft: "5px",
-                                    }}
-                                    src="https://i.ibb.co/Bq9580y/panah-bawah.png"
-                                    alt="panah-bawah"
-                                    border="0"
-                                ></img>
+                                See Details <img src="https://i.ibb.co/Bq9580y/panah-bawah.png" alt="panah-bawah" border="0"></img>
                             </button>
                         </a>
                     </div>
                 </div>
-                {/* <img className="SPL-LandingPage-Section1-Background" src="https://i.ibb.co/VHxvryq/Section-1-Background.png" alt="Section-1-Background" border="0"></img> */}
                 <img
                     data-aos="fade-up"
                     data-aos-offset="200"
