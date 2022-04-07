@@ -6,18 +6,8 @@ class SmartPlatformLandingpageSection8 extends Component {
         return (
             <div id="SPL-LandingPage-Section8">
                 <img className="SPL-LandingPage-Section8-SPL-Logo" data-aos="fade-up" data-aos-offset="100" src={require("../../../../src/Smart-Platform/LogoSmartPlatform.png")} alt="Logo-Navbar" border="0"></img>
-                <div
-                    className="row"
-                    style={{
-                        display: "flex",
-                    }}
-                >
-                    <div
-                        className="col-4"
-                        style={{
-                            display: "flex",
-                        }}
-                    >
+                <div className="row SPL-LandingPage-Section8-Content-Container">
+                    <div className="col-4 SPL-LandingPage-Section8-Content-Left">
                         <div>
                             <p className="SPL-LandingPage-Section8-SPL-ColLeft-Row1" data-aos="fade-up" data-aos-offset="100">
                                 Telkom Direktorat Digital Bussiness Bandung
@@ -33,12 +23,7 @@ class SmartPlatformLandingpageSection8 extends Component {
                             </p>
                         </div>
                     </div>
-                    <div
-                        className="col-4"
-                        style={{
-                            display: "flex",
-                        }}
-                    >
+                    <div className="col-4 SPL-LandingPage-Section8-Content-Mid">
                         <div>
                             <p className="SPL-LandingPage-Section8-SPL-ColMid-Row1" data-aos="fade-up" data-aos-offset="100">
                                 Ikuti Social Media Kami <br />

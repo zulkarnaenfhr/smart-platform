@@ -77,3 +77,15 @@
     width: 318px;
     height: 230px;
 }
+
+.SPL-LandingPage-Section8-Content-Container {
+    display: flex;
+}
+
+.SPL-LandingPage-Section8-Content-Left {
+    display: flex;
+}
+
+.SPL-LandingPage-Section8-Content-Mid {
+    display: flex;
+}
