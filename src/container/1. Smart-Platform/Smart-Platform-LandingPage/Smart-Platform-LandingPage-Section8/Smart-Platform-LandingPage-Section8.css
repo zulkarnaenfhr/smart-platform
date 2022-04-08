@@ -3,7 +3,6 @@
     border: 1px solid red;
     padding-left: 157px;
     background-color: #f7f7f7;
-    /* font-family: "Poppins", sans-serif; */
 }
 
 .SPL-LandingPage-Section8-SPL-Logo {
@@ -88,4 +87,13 @@
 
 .SPL-LandingPage-Section8-Content-Mid {
     display: flex;
+}
+
+@media screen and (max-width: 1440px) {
+    #SPL-LandingPage-Section8 {
+        padding-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
 }
