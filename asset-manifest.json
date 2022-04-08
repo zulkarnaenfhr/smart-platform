@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/smart-platform/static/css/main.e9b37fc5.css",
-    "main.js": "/smart-platform/static/js/main.a3171e28.js",
+    "main.css": "/smart-platform/static/css/main.5535b3be.css",
+    "main.js": "/smart-platform/static/js/main.053fcb8d.js",
     "static/js/787.a2acb59d.chunk.js": "/smart-platform/static/js/787.a2acb59d.chunk.js",
     "static/media/Smart-Platform-Solution-Section1-Background.png": "/smart-platform/static/media/Smart-Platform-Solution-Section1-Background.5b8ad829b187b51b1e1d.png",
     "static/media/Section-1-Background.png": "/smart-platform/static/media/Section-1-Background.66879c677e28c91b7be4.png",
@@ -26,15 +26,16 @@
     "static/media/Section-6-Pertamina.png": "/smart-platform/static/media/Section-6-Pertamina.4a84783e94e61abd1125.png",
     "static/media/Section-1-Big-Box.png": "/smart-platform/static/media/Section-1-Big-Box.6e28808326cae48105ab.png",
     "static/media/Section-1-SmartEye.png": "/smart-platform/static/media/Section-1-SmartEye.70c16beae645cbf09d83.png",
+    "static/media/Smart-Platform-Solution-Section2-ObjectDetection.png": "/smart-platform/static/media/Smart-Platform-Solution-Section2-ObjectDetection.5847850518e43c42491b.png",
     "static/media/Section-4-Data-Integration.png": "/smart-platform/static/media/Section-4-Data-Integration.b4fc386cbe3bdba693f7.png",
     "static/media/Section-4-Document-Detection.png": "/smart-platform/static/media/Section-4-Document-Detection.4afb7074032e35bb6355.png",
     "index.html": "/smart-platform/index.html",
-    "main.e9b37fc5.css.map": "/smart-platform/static/css/main.e9b37fc5.css.map",
-    "main.a3171e28.js.map": "/smart-platform/static/js/main.a3171e28.js.map",
+    "main.5535b3be.css.map": "/smart-platform/static/css/main.5535b3be.css.map",
+    "main.053fcb8d.js.map": "/smart-platform/static/js/main.053fcb8d.js.map",
     "787.a2acb59d.chunk.js.map": "/smart-platform/static/js/787.a2acb59d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9b37fc5.css",
-    "static/js/main.a3171e28.js"
+    "static/css/main.5535b3be.css",
+    "static/js/main.053fcb8d.js"
   ]
 }
