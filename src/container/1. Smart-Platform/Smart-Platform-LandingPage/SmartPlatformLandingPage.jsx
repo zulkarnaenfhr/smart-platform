@@ -13,9 +13,12 @@ import "./SmartPlatformLandingPage.css";
 // import "../../../src/Smart-Platform/Landing Page/"
 
 class Smartplatformlandingpage extends Component {
+    componentDidMount(){
+        document.title = "Smart Platform"
+    }
     render() {
         return (
-            <div>
+            <div id="SmartPlatformLandingPage">
                 <div className="SPL-LandingPage-navbar-container">
                     <Navbarspl />
                 </div>

@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 class Navbarspl extends Component {
     render() {
         return (
-            <nav id="navbarSpl" class="navbar navbarSpl navbar-expand-lg navbar-light">
+            <nav data-aos="fade-up" data-aos-offset="200" id="navbarSpl" class="navbar navbarSpl navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                    <a class="SPLNavbarLogo-Container" href="#">
+                    <a class="SPLNavbarLogo-Container" href="/smart-platform">
                         <img className="SPLNavbarLogo" src={require("../../../src/Smart-Platform/Landing Page/Logo-Navbar.png")} alt="" />
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -92,7 +92,7 @@ class Navbarspl extends Component {
                                 <Link
                                     className="SplNavbarMenu"
                                     to={{
-                                        pathname: `notset`,
+                                        pathname: `/smart-platform/solution`,
                                     }}
                                 >
                                     <p>Solution</p>
