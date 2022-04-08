@@ -53,6 +53,7 @@
 .SPL-Solution-Section2-RightSection-Col62 {
     position: relative;
     right: 53px;
+    bottom: 10px;
 }
 
 .SPL-Solution-Section2-RightSection > .col-12 {
@@ -124,4 +125,25 @@
     text-align: center;
     font-family: poppins-500;
     align-items: center;
+}
+
+@media screen and (max-width: 1300px) {
+    .SPL-Solution-Section2-RightSection {
+        transform: scale(0.8);
+        margin-left: 20px;
+    }
+    .SPL-Solution-Section2-RightSection-Col62 {
+        position: relative;
+        right: 0px;
+        left: 20px;
+        bottom: 10px;
+    }
+}
+@media screen and (max-width: 1300px) and (min-height: 900px) {
+    .SPL-Solution-Section2-RightSection-Col62 {
+        position: relative;
+        right: 0px;
+        left: 20px;
+        margin-top: -20px;
+    }
 }
