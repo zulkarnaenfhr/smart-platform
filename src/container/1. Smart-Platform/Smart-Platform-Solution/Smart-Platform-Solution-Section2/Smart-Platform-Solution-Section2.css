@@ -1,0 +1,39 @@
+#SPL-Solution-Section2 {
+    height: 750px;
+    width: 100vw;
+}
+
+.SPL-Solution-Section2-Content-Container {
+    height: 510px;
+    width: 100vw;
+    padding-top: 131px;
+}
+
+.SPL-Solution-Section2-Button {
+    height: 99px;
+    width: 509px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid transparent;
+    font-size: 28px;
+    text-transform: capitalize;
+    font-family: poppins-700;
+    color: #d34a4a;
+    background-color: transparent;
+    text-align: left;
+    padding-left: 120px;
+    transition: all 0.3s ease-in-out;
+}
+
+.SPL-Solution-Section2-Button:hover {
+    color: white;
+    background: #d34a4a;
+}
+
+.SPL-Solution-Section2-Button-Active {
+    background: #d34a4a;
+    color: white;
+}
+
+.SPL-Solution-Section2-Secondrow {
+    margin-top: 38px;
+}
