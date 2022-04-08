@@ -26,49 +26,45 @@
 }
 
 .SPL-LandingPage-Section5-Content-CostSaving-Logo {
-    position: absolute;
     width: 100.99px;
     height: 96.66px;
-    left: 314.01px;
-    top: 3730px;
+    margin-left: 150px;
 }
 
 .SPL-LandingPage-Section5-Content-CostSaving2-Logo {
-    position: absolute;
     width: 110.12px;
     height: 101.31px;
-    left: 711.7px;
-    top: 3728px;
+    margin-left: 148px;
+    margin-top: -2px;
 }
 
 .SPL-LandingPage-Section5-Content-CostSaving3-Logo {
-    position: absolute;
     width: 90.89px;
     height: 98.1px;
-    left: 1123.11px;
-    top: 3730px;
+    margin-left: 154px;
 }
 
-.SPL-LandingPage-Section5-Content-CostSaving-Title-Container {
-    margin-top: 202px;
+.SPL-LandingPage-Section5-Content-Container > .row {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.SPL-LandingPage-Section5-Content-Container-Section2 {
     display: flex;
-    margin-left: 67px;
-}
-
-.SPL-LandingPage-Section5-Content-CostSaving-Title-Container > .div2 {
-    margin-left: 45px;
-}
-
-.SPL-LandingPage-Section5-Content-CostSaving-Title-Container > .div3 {
-    margin-left: 45px;
+    justify-content: center;
+    margin-top: 61px;
 }
 
 .SPL-LandingPage-Section5-Content-CostSaving1-Title {
     font-size: 27px;
     color: #d23d3d;
+    text-align: center;
     font-family: poppins-700;
     letter-spacing: 0.5px;
     text-transform: capitalize;
+    margin-top: 43px;
+    margin-left: 20px;
+    height: 27px;
 }
 
 .SPL-LandingPage-Section5-Content-CostSaving1-Desc {
@@ -78,7 +74,9 @@
     font-size: 17px;
     text-align: center;
     text-transform: capitalize;
-    margin-left: -33px;
+    margin-left: 12px;
+    margin-top: 30px;
+    line-height: 17px;
 }
 
 @media screen and (max-width: 1440px) {

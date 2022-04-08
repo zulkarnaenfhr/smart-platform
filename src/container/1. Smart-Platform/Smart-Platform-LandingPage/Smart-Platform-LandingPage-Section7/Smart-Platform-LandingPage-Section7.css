@@ -48,3 +48,22 @@
     background-color: transparent;
     border: 1px solid white;
 }
+
+@media screen and (max-width: 1440px) {
+    .SPL-LandingPage-Section7-Background-Container {
+        transform: scale(0.95);
+    }
+    .SPL-LandingPage-Section7-Background{
+        margin-top: 40px;
+        margin-left: 47.5vw;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .SPL-LandingPage-Section5-Content-Container-Responsive {
+        transform: scale(0.85);
+    }
+    .SPL-LandingPage-Section5-Content-Container {
+        margin-left: 10px;
+    }
+}
