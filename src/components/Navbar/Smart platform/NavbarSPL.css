@@ -189,6 +189,20 @@
     }
 }
 
+@media screen and (max-width: 1400px) {
+    .SPLNavbarLogo {
+        margin-left: 32px;
+    }
+
+    .SplnavbarMenu-container {
+        margin-left: 80px;
+    }
+
+    .SplNavbarButtonDemoApps {
+        margin-left: 103px;
+    }
+}
+
 @media screen and (max-width: 1300px) {
     .SPLNavbarLogo {
         margin-left: 55px;
@@ -196,5 +210,55 @@
 
     .SplnavbarMenu-container {
         margin-left: 20px;
+    }
+
+    .SplNavbarButtonDemoApps {
+        margin-left: 85px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .SPLNavbarLogo {
+        margin-left: 0px;
+        transform: scale(0.85);
+    }
+
+    .SplnavbarMenu-container {
+        margin-left: 10px;
+    }
+
+    .SplNavbarMenuSolution {
+        margin-left: 20px;
+    }
+
+    .SplNavbarMenuPartnership {
+        margin-left: 20px;
+    }
+
+    .SplNavbarMenuResources {
+        margin-left: 20px;
+    }
+
+    .SplNavbarMenuCompany {
+        margin-left: 20px;
+    }
+
+    .SplNavbarButtonDemoApps {
+        margin-left: 65px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .SPLNavbarLogo {
+        margin-left: -20px;
+        transform: scale(0.85);
+    }
+
+    .SplnavbarMenu-container {
+        margin-left: 0px;
+    }
+
+    .SplNavbarButtonDemoApps {
+        margin-left: 25px;
     }
 }
