@@ -70,6 +70,12 @@
     }
 }
 
+@media screen and (max-width: 1400px) {
+    .SPL-LandingPage-Section1-Background {
+        left: 125px;
+    }
+}
+
 @media screen and (max-width: 1300px) {
     #SPL-LandingPage-Section1 {
         height: 87vh;
@@ -92,5 +98,18 @@
     }
     .SPL-LandingPage-Section1-Text-container {
         top: 29vh;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .SPL-LandingPage-Section1-Background {
+        left: 0px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .SPL-LandingPage-Section1-Background {
+        width: calc(1094px * 0.9);
+        height: calc(898px * 0.9);
     }
 }
