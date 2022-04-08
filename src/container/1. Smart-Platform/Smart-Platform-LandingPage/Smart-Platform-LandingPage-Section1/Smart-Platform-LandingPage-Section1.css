@@ -1,5 +1,5 @@
 #SPL-LandingPage-Section1 {
-    height: 745px;
+    height: 88vh;
     width: 100vw;
 }
 
@@ -59,4 +59,38 @@
 .SPL-LandingPage-Section1-Text-container button:hover {
     box-shadow: 0 4px 4px 0px rgb(0, 0, 0, 0.3);
     transform: scale(1.025);
+}
+
+@media screen and (max-width: 1440px) {
+    #SPL-LandingPage-Section1 {
+        height: 88vh;
+    }
+    .SPL-LandingPage-Section1-Background {
+        left: 140px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    #SPL-LandingPage-Section1 {
+        height: 87vh;
+    }
+    .SPL-LandingPage-Section1-Background {
+        top: 50vh;
+        left: 6vw;
+    }
+    .SPL-LandingPage-Section1-Text-container {
+        top: 19vh;
+    }
+}
+@media screen and (max-width: 1300px) and (min-height: 900px) {
+    #SPL-LandingPage-Section1 {
+        height: 89vh;
+    }
+    .SPL-LandingPage-Section1-Background {
+        top: 55vh;
+        left: 6vw;
+    }
+    .SPL-LandingPage-Section1-Text-container {
+        top: 29vh;
+    }
 }

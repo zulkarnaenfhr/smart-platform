@@ -7,7 +7,7 @@ class Navbarspl extends Component {
         return (
             <nav id="navbarSpl" class="navbar navbarSpl navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
+                    <a class="SPLNavbarLogo-Container" href="#">
                         <img className="SPLNavbarLogo" src={require("../../../src/Smart-Platform/Landing Page/Logo-Navbar.png")} alt="" />
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

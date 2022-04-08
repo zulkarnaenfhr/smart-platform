@@ -10,7 +10,7 @@
     width: 216px;
     height: 73px;
     margin-left: 106px;
-    margin-top: 11px;
+    margin-top: 9px;
 }
 
 .SplnavbarMenu-container {
@@ -181,4 +181,20 @@
     background-color: transparent;
     color: red;
     border: 1px solid red;
+}
+
+@media screen and (max-width: 1440px) {
+    .SPLNavbarLogo {
+        margin-left: 72px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .SPLNavbarLogo {
+        margin-left: 55px;
+    }
+
+    .SplnavbarMenu-container {
+        margin-left: 20px;
+    }
 }
