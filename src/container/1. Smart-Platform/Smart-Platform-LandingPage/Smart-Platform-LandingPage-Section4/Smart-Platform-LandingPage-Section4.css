@@ -59,3 +59,33 @@
     margin-top: 64px;
     margin-left: 332px;
 }
+
+@media screen and (max-width: 1440px) {
+    .SPL-LandingPage-Section4-Background {
+        left: 22vw;
+    }
+    .SPL-LandingPage-Section4-Background {
+        z-index: 0;
+    }
+    .SPL-LandingPage-Section4-Scroll-Container-Responsive {
+        position: absolute;
+        z-index: 1;
+        transform: scale(0.94);
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .SPL-LandingPage-Section4-Background {
+        left: 10vw;
+    }
+    .SPL-LandingPage-Section4-Background {
+        z-index: 0;
+        transform: scale(0.8);
+        left: 18vw;
+    }
+    .SPL-LandingPage-Section4-Scroll-Container-Responsive {
+        position: absolute;
+        z-index: 1;
+        transform: scale(0.87);
+    }
+}
