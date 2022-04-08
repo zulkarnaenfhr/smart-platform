@@ -45,3 +45,19 @@
         top: 4805px;
     }
 }
+
+@media screen and (max-width: 1150px) {
+    .SPL-LandingPage-Section7-Background2 {
+        left: 66vw;
+        top: 4679px;
+        transform: scale(0.75);
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .SPL-LandingPage-Section7-Background2 {
+        left: 67.5vw;
+        top: 4621px;
+        transform: scale(0.75);
+    }
+}

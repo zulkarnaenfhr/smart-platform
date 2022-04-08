@@ -9,11 +9,13 @@ class SmartPlatformLandingpageSection7 extends Component {
                     <div className="SPL-LandingPage-Section7-Background-Container">
                         <img className="SPL-LandingPage-Section7-Background" src={require("../../../../src/Smart-Platform/Landing Page/Section-7-Background.png")} alt="" />
                     </div>
-                    <h1 data-aos="fade-up" data-aos-offset="100" className="SPL-LandingPage-Section7-Title">
-                        Embark Your AI Journey with Smart platform Now!
-                    </h1>
-                    <div data-aos="fade-up" data-aos-offset="100">
-                        <button className="SPL-LandingPage-Section7-Contact-Us">Contact Us</button>
+                    <div className="SPL-LandingPage-Section7-Text-Container">
+                        <h1 data-aos="fade-up" data-aos-offset="100" className="SPL-LandingPage-Section7-Title">
+                            Embark Your AI Journey with Smart platform Now!
+                        </h1>
+                        <div data-aos="fade-up" data-aos-offset="100">
+                            <button className="SPL-LandingPage-Section7-Contact-Us">Contact Us</button>
+                        </div>
                     </div>
                 </div>
             </div>
