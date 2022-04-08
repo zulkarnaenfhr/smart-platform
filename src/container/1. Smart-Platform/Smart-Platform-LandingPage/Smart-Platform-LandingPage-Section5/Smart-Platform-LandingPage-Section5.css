@@ -80,3 +80,21 @@
     text-transform: capitalize;
     margin-left: -33px;
 }
+
+@media screen and (max-width: 1440px) {
+    .SPL-LandingPage-Section5-Content-Container-Responsive {
+        transform: scale(0.95);
+    }
+    .SPL-LandingPage-Section5-Content-Container {
+        margin-left: 105px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .SPL-LandingPage-Section5-Content-Container-Responsive {
+        transform: scale(0.85);
+    }
+    .SPL-LandingPage-Section5-Content-Container {
+        margin-left: 10px;
+    }
+}
