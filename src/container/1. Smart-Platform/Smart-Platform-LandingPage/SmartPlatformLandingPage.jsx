@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Footerspl from "../../../components/Footer/Smart-Platform/FooterSPL";
-import Navbar from "../../../components/Navbar/Smart platform/Navbar";
 import Navbarspl from "../../../components/Navbar/Smart platform/NavbarSPL";
 import SmartPlatformLandingpageSection1 from "./Smart-Platform-LandingPage-Section1/Smart-Platform-LandingPage-Section1";
 import SmartPlatformLandingpageSection2 from "./Smart-Platform-LandingPage-Section2/Smart-Platform-LandingPage-Section2";
@@ -18,8 +17,7 @@ class Smartplatformlandingpage extends Component {
         return (
             <div>
                 <div className="SPL-LandingPage-navbar-container">
-                    {/* <Navbarspl colorFreeTrial={`white`} backgroundFreeTrial={`#D23D3D`} colorContactUs={`white`} backgroundContactUs={`#D23D3D`} />{" "} */}
-                    <Navbar />
+                    <Navbarspl />
                 </div>
                 <div className="SPL-LandingPage-content-container">
                     <SmartPlatformLandingpageSection1 />
