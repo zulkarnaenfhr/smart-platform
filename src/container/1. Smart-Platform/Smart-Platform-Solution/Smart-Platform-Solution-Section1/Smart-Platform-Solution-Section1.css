@@ -1,0 +1,15 @@
+#SPL-Solution-Section1 {
+    height: 473px;
+    width: 100vw;
+    border: 1px solid red;
+    background: linear-gradient(79.67deg, #686966 -4.49%, rgba(255, 255, 255, 0) 95.1%), url("../../../../src/Smart-Platform/Solution/Smart-Platform-Solution-Section1-Background.png");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    line-height: 50px;
+    font-family: poppins-700;
+    letter-spacing: 0.18em;
+}

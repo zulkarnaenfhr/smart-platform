@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./SmartPlatformSolution.css";
 import Navbarspl from "../../../components/Navbar/Smart platform/NavbarSPL";
+import SmartPlatformSolutionSection1 from "./Smart-Platform-Solution-Section1/Smart-Platform-Solution-Section1";
 
 class Smartplatformsolution extends Component {
     componentDidMount() {
@@ -13,7 +14,8 @@ class Smartplatformsolution extends Component {
                     <Navbarspl />
                 </div>{" "}
                 <div className="SPL-LandingPage-Content-Container">
-                    <h1>masuk</h1>
+                    <SmartPlatformSolutionSection1 />
+                    <h1>batas bawah</h1>
                 </div>
             </div>
         );
