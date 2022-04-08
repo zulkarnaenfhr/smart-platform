@@ -1,6 +1,7 @@
 #SPL-Solution-Section2 {
     height: 750px;
     width: 100vw;
+    background-color: #f5f7fa;
 }
 
 .SPL-Solution-Section2-Content-Container {
@@ -36,4 +37,91 @@
 
 .SPL-Solution-Section2-Secondrow {
     margin-top: 38px;
+}
+
+.SPL-Solution-Section2-RightSection {
+    height: 100%;
+    width: 100%;
+}
+
+.SPL-Solution-Section2-RightSection > .col-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SPL-Solution-Section2-RightSection-Col62 {
+    position: relative;
+    right: 53px;
+}
+
+.SPL-Solution-Section2-RightSection > .col-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SPL-Solution-Section2-RightSection-Logo-FaceDetection {
+    width: 88.52px;
+    height: 69.71px;
+    position: relative;
+    bottom: 15px;
+    margin-left: 190px;
+}
+
+.SPL-Solution-Section2-RightSection-Logo-DocumentDetection {
+    width: 76.63px;
+    height: 77.5px;
+    position: relative;
+    margin-left: 175px;
+    bottom: 17px;
+}
+
+.SPL-Solution-Section2-RightSection-Logo-DataIntegration {
+    width: 88px;
+    height: 88px;
+    position: relative;
+    margin-left: 170px;
+    bottom: 11px;
+}
+
+.SPL-Solution-Section2-RightSection-Logo-PaymentBehavior {
+    width: 78px;
+    height: 89px;
+    position: relative;
+    margin-left: 172px;
+    bottom: 2px;
+}
+
+.SPL-Solution-Section2-RightSection-Logo-ObjectDetection {
+    width: 93px;
+    height: 93px;
+    position: relative;
+    margin-left: 165px;
+    bottom: 6px;
+}
+
+.SPL-Solution-Section2-RightSection-Title {
+    font-family: poppins-700;
+    font-size: 27px;
+    letter-spacing: 0.005em;
+    color: #000000;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 24px;
+}
+
+.SPL-Solution-Section2-RightSection-Desc {
+    margin-top: 10px;
+    margin-left: 24px;
+    width: 391px;
+    height: 126px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+    font-size: 17px;
+
+    text-align: center;
+    font-family: poppins-500;
+    align-items: center;
 }
