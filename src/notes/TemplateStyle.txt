@@ -1,4 +1,4 @@
-move style in component SPL LandingPage Section 4 
+SPL LandingPage + Navbar Responsive Desktop Done
 
 dont forget to input loading="lazy" on img tag
 
