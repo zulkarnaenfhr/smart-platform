@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/smart-platform/static/css/main.e18e42bd.css",
-    "main.js": "/smart-platform/static/js/main.31e8fabe.js",
+    "main.css": "/smart-platform/static/css/main.e9b37fc5.css",
+    "main.js": "/smart-platform/static/js/main.a3171e28.js",
     "static/js/787.a2acb59d.chunk.js": "/smart-platform/static/js/787.a2acb59d.chunk.js",
+    "static/media/Smart-Platform-Solution-Section1-Background.png": "/smart-platform/static/media/Smart-Platform-Solution-Section1-Background.5b8ad829b187b51b1e1d.png",
     "static/media/Section-1-Background.png": "/smart-platform/static/media/Section-1-Background.66879c677e28c91b7be4.png",
     "static/media/Section-4-Background.png": "/smart-platform/static/media/Section-4-Background.d728e57882fd1bb25db3.png",
     "static/media/Section-7-Background.png": "/smart-platform/static/media/Section-7-Background.77f730a2c7ce95b76b17.png",
@@ -28,12 +29,12 @@
     "static/media/Section-4-Data-Integration.png": "/smart-platform/static/media/Section-4-Data-Integration.b4fc386cbe3bdba693f7.png",
     "static/media/Section-4-Document-Detection.png": "/smart-platform/static/media/Section-4-Document-Detection.4afb7074032e35bb6355.png",
     "index.html": "/smart-platform/index.html",
-    "main.e18e42bd.css.map": "/smart-platform/static/css/main.e18e42bd.css.map",
-    "main.31e8fabe.js.map": "/smart-platform/static/js/main.31e8fabe.js.map",
+    "main.e9b37fc5.css.map": "/smart-platform/static/css/main.e9b37fc5.css.map",
+    "main.a3171e28.js.map": "/smart-platform/static/js/main.a3171e28.js.map",
     "787.a2acb59d.chunk.js.map": "/smart-platform/static/js/787.a2acb59d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e18e42bd.css",
-    "static/js/main.31e8fabe.js"
+    "static/css/main.e9b37fc5.css",
+    "static/js/main.a3171e28.js"
   ]
 }
