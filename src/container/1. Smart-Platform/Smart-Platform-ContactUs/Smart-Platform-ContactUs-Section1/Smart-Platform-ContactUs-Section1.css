@@ -34,6 +34,10 @@
 .SPL-ContactUs-Section1-Form-Container {
     width: 688px;
     height: 683px;
+
+    /* kalau ada input subject
+    height: 783px; */
+
     background: #ffffff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     margin-left: 7px;
@@ -62,12 +66,16 @@
 
 .SPL-ContactUs-Section1-Form-Container > input::placeholder {
     color: rgba(0, 0, 0, 0.5);
-    padding-left: 15px;
+    /* padding-left: 15px; */
     font-family: poppins-500;
     font-size: 14px;
     position: relative;
     bottom: 4px;
     right: 4px;
+}
+
+.SPL-ContactUs-Section1-Form-Container > input:focus::placeholder {
+    color: transparent;
 }
 
 .SPL-ContactUs-Section1-Form-Container > textarea {
@@ -82,11 +90,14 @@
 
 .SPL-ContactUs-Section1-Form-Container > textarea::placeholder {
     color: rgba(0, 0, 0, 0.5);
-    padding-left: 11px;
     font-family: poppins-500;
     font-size: 14px;
     position: relative;
     top: 11px;
+}
+
+.SPL-ContactUs-Section1-Form-Container > textarea:focus::placeholder {
+    color: transparent;
 }
 
 .SPL-ContactUs-Section1-Form-Container > button {

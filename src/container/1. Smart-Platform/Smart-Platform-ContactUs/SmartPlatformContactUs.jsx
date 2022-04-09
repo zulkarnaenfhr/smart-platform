@@ -6,6 +6,9 @@ import SmartPlatformContactusSection1 from "./Smart-Platform-ContactUs-Section1/
 import "./SmartPlatformContactUs.css";
 
 class Smartplatformcontactus extends Component {
+    componentDidMount() {
+        document.title = "Smart Platform Contact Us";
+    }
     render() {
         return (
             <div>
