@@ -1,7 +1,8 @@
 #SPL-ContactUs-Section1 {
     height: 856px;
     width: 100vw;
-    border: 1px solid red;
+    /* if i remove this border, it will be error on margin top content container  */
+    border: 1px solid transparent;
     padding-left: 144px;
     padding-right: 100px;
 }

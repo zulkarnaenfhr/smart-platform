@@ -43,11 +43,11 @@ class SmartPlatformContactusSection1 extends Component {
         return (
             <div id="SPL-ContactUs-Section1">
                 <div className="row SPL-ContactUs-Section1-Content-Container">
-                    <div className="col-5">
+                    <div className="col-5" data-aos="fade-up" data-aos-offset="200" data-aos-delay="300">
                         <h1 className="SPL-ContactUs-Section1-Title">Contact our team</h1>
                         <p className="SPL-ContactUs-Section1-Desc">We are happy to answer your question</p>
                     </div>
-                    <div className="col-7">
+                    <div className="col-7" data-aos="fade-up" data-aos-offset="200" data-aos-delay="500">
                         <form action="" className="SPL-ContactUs-Section1-Form-Container" onSubmit={this.sendEmail}>
                             {/* <label htmlFor="">Subject</label>
                             <br />
