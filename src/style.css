@@ -13,6 +13,25 @@
     src: url("src/font/Poppins/Poppins-Bold.ttf");
 }
 
+@font-face {
+    font-family: poppins-900;
+    src: url("src/font/Poppins/Poppins-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: nunitoSans-700;
+    src: url("src/font/Nunito_Sans/NunitoSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: nunitoSans-600;
+    src: url("src/font/Nunito_Sans/NunitoSans-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: nunitoSans-900;
+    src: url("src/font/Nunito_Sans/NunitoSans-ExtraBold.ttf");
+}
 
 html {
     overflow: scroll;

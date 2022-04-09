@@ -126,7 +126,7 @@ class Navbarspl extends Component {
                                             <Link
                                                 className="SplDropdown-Menu-Recources"
                                                 to={{
-                                                    pathname: `notset`,
+                                                    pathname: `/smart-platform/FAQ`,
                                                 }}
                                             >
                                                 <p>FAQ</p>

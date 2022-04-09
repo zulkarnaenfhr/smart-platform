@@ -1,0 +1,68 @@
+#SPL-FAQ-Section1 {
+    height: 620px;
+    width: 100vw;
+    /* if i remove this border, it will be error on margin top content container  */
+    padding-left: 144px;
+    padding-right: 100px;
+}
+
+.SPL-FAQ-Section1-Content-Container {
+    position: relative;
+    top: 155px;
+}
+
+.SPL-FAQ-Section1-Title {
+    font-family: nunitoSans-900;
+    font-size: 50px;
+    color: rgba(72, 72, 72, 1);
+}
+
+.SPL-FAQ-Section1-Collapse-Container {
+    width: 100vw;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #d34a4a;
+    color: #d34a4a;
+}
+
+.SPL-FAQ-Section1-Collapse-Container > button {
+    height: 75px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: #d34a4a;
+    font-size: 27px;
+    font-family: nunitoSans-700;
+    letter-spacing: 0.04em;
+    text-align: left;
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+
+.divCollapse {
+    margin-left: 34px;
+    margin-right: 34px;
+    height: calc(auto + 34px);
+}
+
+.divCollapse-Container {
+    width: 90%;
+    font-family: nunitoSans-600;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: 0.005em;
+}
+
+.SPL-FAQ-Section1-VectorSilang {
+    width: 16px;
+    height: 16px;
+}
+
+.SPL-FAQ-Section1-VectorSilangRotate {
+    width: 16px;
+    height: 16px;
+    transform: rotate(-45deg);
+}
