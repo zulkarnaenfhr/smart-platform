@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/smart-platform/static/css/main.5535b3be.css",
-    "main.js": "/smart-platform/static/js/main.053fcb8d.js",
+    "main.css": "/smart-platform/static/css/main.0e89a438.css",
+    "main.js": "/smart-platform/static/js/main.543e0f8a.js",
     "static/js/787.a2acb59d.chunk.js": "/smart-platform/static/js/787.a2acb59d.chunk.js",
     "static/media/Smart-Platform-Solution-Section1-Background.png": "/smart-platform/static/media/Smart-Platform-Solution-Section1-Background.5b8ad829b187b51b1e1d.png",
     "static/media/Section-1-Background.png": "/smart-platform/static/media/Section-1-Background.66879c677e28c91b7be4.png",
@@ -30,12 +30,12 @@
     "static/media/Section-4-Data-Integration.png": "/smart-platform/static/media/Section-4-Data-Integration.b4fc386cbe3bdba693f7.png",
     "static/media/Section-4-Document-Detection.png": "/smart-platform/static/media/Section-4-Document-Detection.4afb7074032e35bb6355.png",
     "index.html": "/smart-platform/index.html",
-    "main.5535b3be.css.map": "/smart-platform/static/css/main.5535b3be.css.map",
-    "main.053fcb8d.js.map": "/smart-platform/static/js/main.053fcb8d.js.map",
+    "main.0e89a438.css.map": "/smart-platform/static/css/main.0e89a438.css.map",
+    "main.543e0f8a.js.map": "/smart-platform/static/js/main.543e0f8a.js.map",
     "787.a2acb59d.chunk.js.map": "/smart-platform/static/js/787.a2acb59d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5535b3be.css",
-    "static/js/main.053fcb8d.js"
+    "static/css/main.0e89a438.css",
+    "static/js/main.543e0f8a.js"
   ]
 }
