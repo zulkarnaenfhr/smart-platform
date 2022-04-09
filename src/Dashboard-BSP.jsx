@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Routes, Route } from "react-router-dom";
+import Smartplatformcontactus from "./container/1. Smart-Platform/Smart-Platform-ContactUs/SmartPlatformContactUs";
 import Smartplatformlandingpage from "./container/1. Smart-Platform/Smart-Platform-LandingPage/SmartPlatformLandingPage";
 import Smartplatformsolution from "./container/1. Smart-Platform/Smart-Platform-Solution/SmartPlatformSolution";
 import "./style.css";
@@ -11,6 +12,7 @@ class DashboardBsp extends Component {
                 <Routes>
                     <Route path="/smart-platform/" exact element={<Smartplatformlandingpage />} />
                     <Route path="/smart-platform/solution" exact element={<Smartplatformsolution />} />
+                    <Route path="/smart-platform/contactus" exact element={<Smartplatformcontactus />} />
                     <Route
                         path="*"
                         element={

@@ -183,7 +183,14 @@ class Navbarspl extends Component {
                                 </ul>
                             </li>
                             <button className="SplNavbarButtonDemoApps">DEMO APPS</button>
-                            <button className="SPlNavbarButtonContactUs">CONTACT US</button>
+                            <Link
+                                className="SPLNavbarButtonContactUs"
+                                to={{
+                                    pathname: `/smart-platform/contactus`,
+                                }}
+                            >
+                                <button className="SPlNavbarButtonContactUs">CONTACT US</button>
+                            </Link>
                         </ul>
                     </div>
                 </div>

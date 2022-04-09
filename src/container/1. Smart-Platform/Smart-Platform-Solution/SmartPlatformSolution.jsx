@@ -17,7 +17,7 @@ class Smartplatformsolution extends Component {
                 <div className="SPL-LandingPage-navbar-container">
                     <Navbarspl />
                 </div>{" "}
-                <div className="SPL-LandingPage-Content-Container">
+                <div className="SPL-Solution-Content-Container">
                     <SmartPlatformSolutionSection1 />
                     <SmartPlatformSolutionSection2 />
                     <SmartPlatformLandingpageSection3 />
