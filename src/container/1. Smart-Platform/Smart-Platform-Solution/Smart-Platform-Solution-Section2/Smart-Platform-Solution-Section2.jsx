@@ -16,7 +16,7 @@ class SmartPlatformSolutionSection2 extends Component {
     };
     render() {
         return (
-            <div id="SPL-Solution-Section2">
+            <div id="SPL-Solution-Section2" data-aos="fade-up" data-aos-offset="200" data-aos-delay="500">
                 <div className="row SPL-Solution-Section2-Content-Container">
                     <div className="col-4">
                         <button
