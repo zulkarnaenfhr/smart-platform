@@ -5,21 +5,21 @@ import { Link } from "react-router-dom";
 class Navbarspl extends Component {
     render() {
         return (
-            <nav data-aos="fade-up" data-aos-offset="200" id="navbarSpl" class="navbar navbarSpl navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                    <a class="SPLNavbarLogo-Container" href="/smart-platform">
+            <nav data-aos="fade-up" data-aos-offset="200" id="navbarSpl" className="navbar navbarSpl navbar-expand-lg navbar-light">
+                <div className="container-fluid">
+                    <a className="SPLNavbarLogo-Container" href="/smart-platform">
                         <img className="SPLNavbarLogo" src={require("../../../src/Smart-Platform/Landing Page/Logo-Navbar.png")} alt="" />
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav SplnavbarMenu-container">
-                            <li class="nav-item dropdown">
-                                <a class="dropdown-toggle SplNavbarMenu" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <div className="collapse navbar-collapse" id="navbarNav">
+                        <ul className="navbar-nav SplnavbarMenu-container">
+                            <li className="nav-item dropdown">
+                                <a className="dropdown-toggle SplNavbarMenu" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Product
                                 </a>
-                                <ul class="dropdown-menu SplNavbarDropdownProduct-Container" aria-labelledby="navbarDropdown">
+                                <ul className="dropdown-menu SplNavbarDropdownProduct-Container" aria-labelledby="navbarDropdown">
                                     <div className="row">
                                         <div className="col-6">
                                             <Link
@@ -88,7 +88,7 @@ class Navbarspl extends Component {
                                     </div>
                                 </ul>
                             </li>
-                            <li class="nav-item SplNavbarMenuSolution">
+                            <li className="nav-item SplNavbarMenuSolution">
                                 <Link
                                     className="SplNavbarMenu"
                                     to={{
@@ -98,7 +98,7 @@ class Navbarspl extends Component {
                                     <p>Solution</p>
                                 </Link>
                             </li>
-                            <li class="nav-item SplNavbarMenuPartnership">
+                            <li className="nav-item SplNavbarMenuPartnership">
                                 <Link
                                     className="SplNavbarMenu"
                                     to={{
@@ -108,11 +108,11 @@ class Navbarspl extends Component {
                                     <p>Partnership</p>
                                 </Link>
                             </li>
-                            <li class="nav-item dropdown SplNavbarMenuResources">
-                                <a class="dropdown-toggle SplNavbarMenu" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <li className="nav-item dropdown SplNavbarMenuResources">
+                                <a className="dropdown-toggle SplNavbarMenu" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Resources
                                 </a>
-                                <ul class="dropdown-menu SplNavbarDropdownResources-Container" aria-labelledby="navbarDropdown ">
+                                <ul className="dropdown-menu SplNavbarDropdownResources-Container" aria-labelledby="navbarDropdown ">
                                     <div>
                                         <Link
                                             className="SplDropdown-Menu-Recources"
@@ -145,11 +145,11 @@ class Navbarspl extends Component {
                                     </div>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown SplNavbarMenuCompany">
-                                <a class="dropdown-toggle SplNavbarMenu" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <li className="nav-item dropdown SplNavbarMenuCompany">
+                                <a className="dropdown-toggle SplNavbarMenu" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Company
                                 </a>
-                                <ul class="dropdown-menu SplNavbarDropdownCompany-Container" aria-labelledby="navbarDropdown">
+                                <ul className="dropdown-menu SplNavbarDropdownCompany-Container" aria-labelledby="navbarDropdown">
                                     <div>
                                         <Link
                                             className="SplDropdown-Menu-Company"

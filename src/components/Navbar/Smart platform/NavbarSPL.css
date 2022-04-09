@@ -127,6 +127,10 @@
     font-family: poppins-500;
 }
 
+.SplDropdown-Menu-Company:hover {
+    color: #d23d3d;
+}
+
 .SplDropdown-Menu-Company-row2 {
     margin-top: -8.5px;
 }
