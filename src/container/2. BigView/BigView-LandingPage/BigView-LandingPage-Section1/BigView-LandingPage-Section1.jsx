@@ -7,6 +7,7 @@ class BigviewLandingpageSection1 extends Component {
                 style={{
                     height: "100vh",
                     border: "1px solid red",
+                    background: "black",
                 }}
             >
                 <h1>bigview section 1</h1>
