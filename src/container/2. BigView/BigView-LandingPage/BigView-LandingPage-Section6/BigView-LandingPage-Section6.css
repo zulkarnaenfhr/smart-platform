@@ -1,0 +1,47 @@
+#BigViewLandingPage-Section6 {
+    height: 369px;
+    border: 1px solid royalblue;
+}
+
+.BigViewLandingPage-Section6-Title {
+    margin-top: 60px;
+    font-family: poppins-700;
+    font-size: 50px;
+    text-align: center;
+}
+
+.BigViewLandingPage-Section6-Desc-Container {
+    display: flex;
+    justify-content: center;
+}
+
+.BigViewLandingPage-Section6-Desc {
+    width: 668px;
+    text-align: center;
+    font-size: 18px;
+    font-family: poppins-400;
+    line-height: 27px;
+    margin-top: 30px;
+}
+
+.BigViewLandingPage-Section6-Button-Container {
+    display: flex;
+    justify-content: center;
+}
+
+.BigViewLandingPage-Section6-Button {
+    width: 150px;
+    height: 60px;
+    border-radius: 30px;
+    background: #009ffd;
+    font-size: 16px;
+    font-family: poppins-700;
+    border: 1px solid transparent;
+    transition: all 0.4s ease-in-out;
+}
+
+.BigViewLandingPage-Section6-Button:hover {
+    border: 1px solid #009ffd;
+    color: #009ffd;
+    background: white;
+}
