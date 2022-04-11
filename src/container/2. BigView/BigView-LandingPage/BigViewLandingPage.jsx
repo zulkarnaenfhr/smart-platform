@@ -13,7 +13,9 @@ class Bigviewlandingpage extends Component {
                 </div>
                 <div className="bigView-content-container">
                     <BigviewLandingpageSection1 />
-                    <BigviewLandingpageSection2 />
+                    <div className="BigView-LandingPage-Section2-Container">
+                        <BigviewLandingpageSection2 />
+                    </div>
                 </div>
             </div>
         );

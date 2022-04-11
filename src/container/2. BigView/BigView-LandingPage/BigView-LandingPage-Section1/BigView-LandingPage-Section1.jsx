@@ -5,7 +5,7 @@ import "./BigView-LandingPage-Section1.css";
 class BigviewLandingpageSection1 extends Component {
     render() {
         return (
-            <div id="BigViewLandingPage">
+            <div id="BigViewLandingPage-Section1">
                 <div className="BigViewLandingPage-Background-Container">
                     <img className="BigViewLandingPage-Section1-Background1" src={require("../../../../src/Big-View/BigView-LandingPage/Background Section 1.png")} alt="" />
                     <img className="BigViewLandingPage-Section1-Background2" src={require("../../../../src/Big-View/BigView-LandingPage/Background2 Section 1.png")} alt="" />

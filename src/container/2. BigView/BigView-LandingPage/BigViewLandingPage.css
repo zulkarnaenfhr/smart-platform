@@ -9,6 +9,8 @@
     z-index: 3;
 }
 
-/* .bigView-content-container {
-    margin-top: 100px;
-} */
+.BigView-LandingPage-Section2-Container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
