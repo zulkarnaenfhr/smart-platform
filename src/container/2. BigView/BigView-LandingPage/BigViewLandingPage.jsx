@@ -3,6 +3,7 @@ import Navbarbigview from "../../../components/Navbar/Big View/NavbarBigView";
 import BigviewLandingpageSection1 from "./BigView-LandingPage-Section1/BigView-LandingPage-Section1";
 import BigviewLandingpageSection2 from "./BigView-LandingPage-Section2/BigView-LandingPage-Section2";
 import BigviewLandingpageSection3 from "./BigView-LandingPage-Section3/BigView-LandingPage-Section3";
+import BigviewLandingpageSection4 from "./BigView-LandingPage-Section4/BigView-LandingPage-Section4";
 import "./BigViewLandingPage.css";
 
 class Bigviewlandingpage extends Component {
@@ -18,6 +19,7 @@ class Bigviewlandingpage extends Component {
                         <BigviewLandingpageSection2 />
                     </div>
                     <BigviewLandingpageSection3 />
+                    <BigviewLandingpageSection4 />
                 </div>
             </div>
         );
