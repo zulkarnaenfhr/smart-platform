@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbarbigview from "../../../components/Navbar/Big View/NavbarBigView";
 import BigviewLandingpageSection1 from "./BigView-LandingPage-Section1/BigView-LandingPage-Section1";
+import BigviewLandingpageSection10 from "./BigView-LandingPage-Section10/BigView-LandingPage-Section10";
 import BigviewLandingpageSection2 from "./BigView-LandingPage-Section2/BigView-LandingPage-Section2";
 import BigviewLandingpageSection3 from "./BigView-LandingPage-Section3/BigView-LandingPage-Section3";
 import BigviewLandingpageSection4 from "./BigView-LandingPage-Section4/BigView-LandingPage-Section4";
@@ -30,6 +31,7 @@ class Bigviewlandingpage extends Component {
                     <BigviewLandingpageSection7 />
                     <BigviewLandingpageSection8 />
                     <BigviewLandingpageSection9 />
+                    <BigviewLandingpageSection10 />
                 </div>
             </div>
         );
