@@ -29,7 +29,7 @@ class BigviewLandingpageSection7 extends Component {
                                 <img className="BigViewLandingPage-Section7-Desc-Checklist" src={require("../../../../src/Big-View/Checklist Big View.png")} alt="" />{" "}
                             </td>
                             <td>
-                                <p>Memonitor performasi dan kinerjA setiap SKPD</p>
+                                <p>Memonitor performasi dan kinerja setiap SKPD</p>
                             </td>
                         </p>
                         <p className="BigViewLandingPage-Section7-Desc BigViewLandingPage-Section7-Desc4 BigViewLandingPage-Section7-Desc-Second-Row">
