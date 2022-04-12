@@ -26,6 +26,7 @@
 .BigViewLandingPage-Section6-Button-Container {
     display: flex;
     justify-content: center;
+    padding-top: 20px;
 }
 
 .BigViewLandingPage-Section6-Button {
@@ -43,4 +44,24 @@
     border: 1px solid #009ffd;
     color: #009ffd;
     background: white;
+}
+
+@media screen and (max-width: 1440px) {
+    
+}
+
+@media screen and (max-width: 1400px) {
+    
+}
+
+@media screen and (max-width: 1300px) {
+    
+}
+
+@media screen and (max-width: 1150px) {
+    
+}
+
+@media screen and (max-width: 1100px) {
+    
 }
