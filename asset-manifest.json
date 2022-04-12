@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/smart-platform/static/css/main.a78fd414.css",
-    "main.js": "/smart-platform/static/js/main.34359563.js",
+    "main.css": "/smart-platform/static/css/main.9061672d.css",
+    "main.js": "/smart-platform/static/js/main.e1c59b3d.js",
     "static/js/787.a2acb59d.chunk.js": "/smart-platform/static/js/787.a2acb59d.chunk.js",
     "static/media/Smart-Platform-Solution-Section1-Background.png": "/smart-platform/static/media/Smart-Platform-Solution-Section1-Background.5b8ad829b187b51b1e1d.png",
     "static/media/Section-1-Background.png": "/smart-platform/static/media/Section-1-Background.66879c677e28c91b7be4.png",
@@ -10,6 +10,8 @@
     "static/media/Background2 Section 1.png": "/smart-platform/static/media/Background2 Section 1.133d65d846e223785d8f.png",
     "static/media/Section-7-Background2.png": "/smart-platform/static/media/Section-7-Background2.a86732993336a03410a9.png",
     "static/media/Section4-Background.png": "/smart-platform/static/media/Section4-Background.ab7d786d1ad35e52375a.png",
+    "static/media/Section7-Background.png": "/smart-platform/static/media/Section7-Background.674ba887e4ae203d27e1.png",
+    "static/media/BigViewLogo Right.png": "/smart-platform/static/media/BigViewLogo Right.b094eeda8833c322e8f0.png",
     "static/media/Section-8-LogoRight.png": "/smart-platform/static/media/Section-8-LogoRight.b094eeda8833c322e8f0.png",
     "static/media/Poppins-Regular.ttf": "/smart-platform/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
     "static/media/Poppins-Medium.ttf": "/smart-platform/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
@@ -41,17 +43,22 @@
     "static/media/Section2-Logo-BUMN.png": "/smart-platform/static/media/Section2-Logo-BUMN.08499d4f0f7a7f95761f.png",
     "static/media/Section-1-SmartEye.png": "/smart-platform/static/media/Section-1-SmartEye.70c16beae645cbf09d83.png",
     "static/media/Smart-Platform-Solution-Section2-ObjectDetection.png": "/smart-platform/static/media/Smart-Platform-Solution-Section2-ObjectDetection.5847850518e43c42491b.png",
+    "static/media/Section9-Vector2.png": "/smart-platform/static/media/Section9-Vector2.f67d5079f28d09ca2746.png",
     "static/media/Section3-BigDataAnalytic.png": "/smart-platform/static/media/Section3-BigDataAnalytic.619965eecbbf09e9afa6.png",
+    "static/media/Section9-Vector1.png": "/smart-platform/static/media/Section9-Vector1.9b7559a5d410653f06d4.png",
+    "static/media/Section8-Card-Vector2.png": "/smart-platform/static/media/Section8-Card-Vector2.3ce33ec46bc372c80c05.png",
     "static/media/Section3-IntegrasiData.png": "/smart-platform/static/media/Section3-IntegrasiData.57f15c11f053f12eae28.png",
     "static/media/Section-4-Data-Integration.png": "/smart-platform/static/media/Section-4-Data-Integration.b4fc386cbe3bdba693f7.png",
+    "static/media/Section8-Card2-Vector1.png": "/smart-platform/static/media/Section8-Card2-Vector1.c89bd44747f0a6155281.png",
+    "static/media/Section9-Vector3.png": "/smart-platform/static/media/Section9-Vector3.5a3de921252fe9a28488.png",
     "static/media/Section-4-Document-Detection.png": "/smart-platform/static/media/Section-4-Document-Detection.4afb7074032e35bb6355.png",
     "index.html": "/smart-platform/index.html",
-    "main.a78fd414.css.map": "/smart-platform/static/css/main.a78fd414.css.map",
-    "main.34359563.js.map": "/smart-platform/static/js/main.34359563.js.map",
+    "main.9061672d.css.map": "/smart-platform/static/css/main.9061672d.css.map",
+    "main.e1c59b3d.js.map": "/smart-platform/static/js/main.e1c59b3d.js.map",
     "787.a2acb59d.chunk.js.map": "/smart-platform/static/js/787.a2acb59d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a78fd414.css",
-    "static/js/main.34359563.js"
+    "static/css/main.9061672d.css",
+    "static/js/main.e1c59b3d.js"
   ]
 }
