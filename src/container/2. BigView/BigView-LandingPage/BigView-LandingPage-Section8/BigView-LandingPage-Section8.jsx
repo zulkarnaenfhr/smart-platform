@@ -5,8 +5,10 @@ class BigviewLandingpageSection8 extends Component {
     render() {
         return (
             <div id="BigViewLandingPage-Section8">
-                <h1 className="BigViewLandingPage-Section8-Title">Let’s see how big view work</h1>
-                <div className="BigViewLandingPage-Section8-Card-Container">
+                <h1 className="BigViewLandingPage-Section8-Title" data-aos="fade-up" data-aos-delay="0">
+                    Let’s see how big view work
+                </h1>
+                <div className="BigViewLandingPage-Section8-Card-Container" data-aos="fade-up" data-aos-delay="0">
                     <div className="BigViewLandingPage-Section8-Card1 BigViewLandingPage-Section8-Card">
                         <div className="BigViewLandingPage-Section8-Card1-Content-Container">
                             <img src={require("../../../../src/Big-View/BigView-LandingPage/Section8-Card-Vector1.png")} className="BigViewLandingPage-Section8-Card1-Vector1" alt="" />

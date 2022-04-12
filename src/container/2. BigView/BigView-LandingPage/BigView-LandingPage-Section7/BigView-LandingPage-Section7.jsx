@@ -6,10 +6,12 @@ class BigviewLandingpageSection7 extends Component {
     render() {
         return (
             <div id="BigViewLandingPage-Section7">
-                <img className="BigViewLandingPage-Section7-Background" src={require("../../../../src/Big-View/BigView-LandingPage/Section7-Background.png")} alt="" />
-                <div className="BigViewLandingPage-Section7-Text-Container">
-                    <h1 className="BigViewLandingPage-Section7-Title">The Reason why you should choose us</h1>
-                    <div className="BigViewLandingPage-Section7-Desc-Container">
+                <img data-aos="fade-up" data-aos-delay="0" className="BigViewLandingPage-Section7-Background" src={require("../../../../src/Big-View/BigView-LandingPage/Section7-Background.png")} alt="" />
+                <div data-aos="fade-up" data-aos-delay="0" className="BigViewLandingPage-Section7-Text-Container">
+                    <h1 data-aos="fade-up" data-aos-delay="0" className="BigViewLandingPage-Section7-Title">
+                        The Reason why you should choose us
+                    </h1>
+                    <div data-aos="fade-up" data-aos-delay="0" className="BigViewLandingPage-Section7-Desc-Container">
                         <p className="BigViewLandingPage-Section7-Desc">
                             <td>
                                 <img className="BigViewLandingPage-Section7-Desc-Checklist" src={require("../../../../src/Big-View/Checklist Big View.png")} alt="" />
@@ -48,7 +50,9 @@ class BigviewLandingpageSection7 extends Component {
                             pathname: `notset`,
                         }}
                     >
-                        <button className="BigViewLandingPage-Section7-Button">Learn More</button>
+                        <button data-aos="fade-up" data-aos-delay="0" className="BigViewLandingPage-Section7-Button">
+                            Learn More
+                        </button>
                     </Link>
                 </div>
             </div>

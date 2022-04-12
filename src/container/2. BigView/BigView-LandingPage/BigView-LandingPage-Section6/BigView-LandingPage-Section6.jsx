@@ -6,8 +6,10 @@ class BigviewLandingpageSection6 extends Component {
     render() {
         return (
             <div id="BigViewLandingPage-Section6">
-                <h1 className="BigViewLandingPage-Section6-Title">Lets try our demo apps</h1>
-                <div className="BigViewLandingPage-Section6-Desc-Container">
+                <h1 className="BigViewLandingPage-Section6-Title" data-aos="fade-up" data-aos-delay="0">
+                    Lets try our demo apps
+                </h1>
+                <div className="BigViewLandingPage-Section6-Desc-Container" data-aos="fade-up" data-aos-delay="0">
                     <p className="BigViewLandingPage-Section6-Desc">Discover how our products are implemented in real world situations and used in various use case through our interactive demo app.</p>
                 </div>
                 <div className="BigViewLandingPage-Section6-Button-Container">
@@ -16,7 +18,9 @@ class BigviewLandingpageSection6 extends Component {
                             pathname: `notset`,
                         }}
                     >
-                        <button className="BigViewLandingPage-Section6-Button">Try Now</button>
+                        <button data-aos="fade-up" data-aos-delay="0" className="BigViewLandingPage-Section6-Button">
+                            Try Now
+                        </button>
                     </Link>
                 </div>
             </div>

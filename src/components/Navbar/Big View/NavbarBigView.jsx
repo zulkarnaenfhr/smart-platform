@@ -25,7 +25,7 @@ class Navbarbigview extends Component {
     }
     render() {
         return (
-            <nav id={this.state.scrollNavbar === true ? "navbarBigViewScroll" : "navbarBigView"} className="navbar navbar-expand-lg navbar-light">
+            <nav id={this.state.scrollNavbar === true ? "navbarBigViewScroll" : "navbarBigView"} className="navbar navbar-expand-lg navbar-light" data-aos="fade-in" data-aos-offset="200" data-aos-delay="300">
                 <div className="container-fluid">
                     {this.state.scrollNavbar === true ? (
                         <a className="bigViewNavbarLogo-container" href="#">

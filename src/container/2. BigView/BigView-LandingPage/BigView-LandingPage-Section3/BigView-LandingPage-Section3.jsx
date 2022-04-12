@@ -6,8 +6,10 @@ class BigviewLandingpageSection3 extends Component {
     render() {
         return (
             <div id="BigViewLandingPage-Section3">
-                <h1 className="BigViewLandingPage-Section3-Title">Solution that we serve for you</h1>
-                <div className="BigViewLandingPage-Section3-Card-Container">
+                <h1 className="BigViewLandingPage-Section3-Title" data-aos="fade-up" data-aos-delay="0">
+                    Solution that we serve for you
+                </h1>
+                <div className="BigViewLandingPage-Section3-Card-Container" data-aos="fade-up" data-aos-delay="0">
                     <Cardbigviewlandingpagesection3
                         desc={"Informasi yang ditampilkan dapat berupa historis data atau realisasi dari sebuah program kerja"}
                         title1={"Executive"}
