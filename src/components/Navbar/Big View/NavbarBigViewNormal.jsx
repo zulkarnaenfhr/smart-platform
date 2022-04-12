@@ -1,41 +1,15 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import "./NavbarBigView.css";
+import { Link } from "react-router-dom";
 
-class Navbarbigview extends Component {
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            scrollNavbar: true,
-        };
-    }
-    componentDidMount() {
-        document.addEventListener("scroll", () => {
-            if (window.scrollY < 400) {
-                this.setState({
-                    scrollNavbar: true,
-                });
-            } else {
-                this.setState({
-                    scrollNavbar: false,
-                });
-            }
-        });
-    }
+class Navbarbigviewnormal extends Component {
     render() {
         return (
-            <nav id={this.state.scrollNavbar === true ? "navbarBigViewScroll" : "navbarBigView"} className="navbar navbar-expand-lg navbar-light" data-aos="fade-in" data-aos-offset="200" data-aos-delay="300">
+            <nav id={"navbarBigView"} className="navbar navbar-expand-lg navbar-light" data-aos="fade-in" data-aos-offset="200" data-aos-delay="300">
                 <div className="container-fluid">
-                    {this.state.scrollNavbar === true ? (
-                        <a className="bigViewNavbarLogo-container" href="#">
-                            <img className="bigViewNavbarLogo" src={require("../../../src/Big-View/BigViewLogoScroll.png")} alt="" />{" "}
-                        </a>
-                    ) : (
-                        <a className="bigViewNavbarLogo-container" href="#">
-                            <img className="bigViewNavbarLogo" src={require("../../../src/Big-View/BigViewLogo.png")} alt="" />{" "}
-                        </a>
-                    )}
+                    <a className="bigViewNavbarLogo-container" href="#">
+                        <img className="bigViewNavbarLogo" src={require("../../../src/Big-View/BigViewLogo.png")} alt="" />{" "}
+                    </a>
 
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -44,7 +18,7 @@ class Navbarbigview extends Component {
                         <ul className="navbar-nav bigViewNavbarMenu-container">
                             <li className="nav-item bigViewNavbarMenuAboutUs">
                                 <Link
-                                    className={this.state.scrollNavbar === true ? "bigViewNavbarMenuScroll" : "bigViewNavbarMenu"}
+                                    className={"bigViewNavbarMenu"}
                                     to={{
                                         pathname: `notset`,
                                     }}
@@ -54,7 +28,7 @@ class Navbarbigview extends Component {
                             </li>
                             <li className="nav-item bigViewNavbarMenuPartnership">
                                 <Link
-                                    className={this.state.scrollNavbar === true ? "bigViewNavbarMenuScroll" : "bigViewNavbarMenu"}
+                                    className={"bigViewNavbarMenu"}
                                     to={{
                                         pathname: `notset`,
                                     }}
@@ -63,14 +37,7 @@ class Navbarbigview extends Component {
                                 </Link>
                             </li>
                             <li className="nav-item dropdown bigViewMenuDropdown bigViewMenuResources">
-                                <a
-                                    className={this.state.scrollNavbar === true ? "dropdown-toggle bigViewNavbarMenuScroll" : "dropdown-toggle bigViewNavbarMenu"}
-                                    href="#"
-                                    id="navbarDropdown"
-                                    role="button"
-                                    data-bs-toggle="dropdown"
-                                    aria-expanded="false"
-                                >
+                                <a className={"dropdown-toggle bigViewNavbarMenu"} href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Resources
                                 </a>
                                 <ul className="dropdown-menu bigViewNavbarDropdownResources-container" aria-labelledby="navbarDropdown">
@@ -109,14 +76,7 @@ class Navbarbigview extends Component {
                                 </ul>
                             </li>
                             <li className="nav-item dropdown bigViewMenuDropdown bigViewMenuCompany">
-                                <a
-                                    className={this.state.scrollNavbar === true ? "dropdown-toggle bigViewNavbarMenuScroll" : "dropdown-toggle bigViewNavbarMenu"}
-                                    href="#"
-                                    id="navbarDropdown"
-                                    role="button"
-                                    data-bs-toggle="dropdown"
-                                    aria-expanded="false"
-                                >
+                                <a className={"dropdown-toggle bigViewNavbarMenu"} href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Company
                                 </a>
                                 <ul className="dropdown-menu bigViewNavbarDropdownCompany-container" aria-labelledby="navbarDropdown">
@@ -188,4 +148,4 @@ class Navbarbigview extends Component {
     }
 }
 
-export default Navbarbigview;
+export default Navbarbigviewnormal;

@@ -27,22 +27,22 @@
 
 @media screen and (max-width: 1440px) {
     .SPL-LandingPage-Section7-Background2 {
-        left: 66.8vw;
+        left: 962px;
         top: 4750px;
     }
 }
 
 @media screen and (max-width: 1300px) and (max-height: 900px) {
     .SPL-LandingPage-Section7-Background2 {
-        left: 69.3vw;
-        top: 4655px;
+        left: 887px;
+        top: 4607px;
     }
 }
 
 @media screen and (max-width: 1300px) and (min-height: 910px) {
     .SPL-LandingPage-Section7-Background2 {
-        left: 69.3vw;
-        top: 4805px;
+        left: 887px;
+        top: 4759px;
     }
 }
 
