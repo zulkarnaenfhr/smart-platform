@@ -12,6 +12,7 @@ import BigviewLandingpageSection8 from "./BigView-LandingPage-Section8/BigView-L
 import BigviewLandingpageSection9 from "./BigView-LandingPage-Section9/BigView-LandingPage-Section9";
 import Beforefooterbigview from "../../../components/BeforeFooter/BeforeFooterBigView";
 import "./BigViewLandingPage.css";
+import Footerbigview from "../../../components/Footer/Big-View/FooterBigView";
 
 class Bigviewlandingpage extends Component {
     render() {
@@ -34,6 +35,7 @@ class Bigviewlandingpage extends Component {
                     <BigviewLandingpageSection9 />
                     <BigviewLandingpageSection10 />
                     <Beforefooterbigview />
+                    <Footerbigview />
                 </div>
             </div>
         );

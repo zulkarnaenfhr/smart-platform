@@ -39,7 +39,7 @@ class SmartPlatformLandingpageSection2 extends Component {
                                 height={"76px"}
                                 productName={`Big View `}
                                 productDesc={`Layanan integrated dashboard smart government sistem yang berfungsi untuk menggabungkan data dari berbagai aplikasi vertikal ke dalam sebuah platform yang terintegrasi.`}
-                                linkProduct={`notSet`}
+                                linkProduct={`/big-view`}
                             />{" "}
                         </div>
 
