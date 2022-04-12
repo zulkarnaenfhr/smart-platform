@@ -51,3 +51,24 @@
     height: 70px;
     margin-left: 60px;
 }
+
+@media screen and (max-width: 1440px) {
+    #BigViewLandingPage-Section2 {
+        transform: scale(0.98);
+    }
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1300px) {
+    #BigViewLandingPage-Section2 {
+        transform: scale(0.9);
+    }
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 1100px) {
+}
