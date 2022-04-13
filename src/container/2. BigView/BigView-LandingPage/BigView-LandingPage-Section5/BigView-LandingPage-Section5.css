@@ -2,3 +2,88 @@
     height: 1087px;
     border: 1px solid red;
 }
+
+.BigViewLandingPage-Section5-Title {
+    font-family: poppins-700;
+    font-size: 50px;
+    line-height: 70px;
+    width: 450px;
+    height: 140px;
+    margin-left: 142px;
+    margin-top: 140px;
+}
+
+.BigViewLandingPage-Section5-Card-Side {
+    width: 300px;
+    height: 355.26px;
+    background: #ffffff;
+    border: 2.37333px solid rgba(71, 71, 71, 0.1);
+    box-sizing: border-box;
+    border-radius: 7.91111px;
+    transition: all 0.4s ease-in-out;
+}
+
+.BigViewLandingPage-Section5-Card-Side > img {
+    width: 115px;
+    height: 115px;
+    margin-left: 31.56px;
+    margin-top: 31.56px;
+}
+
+.BigViewLandingPage-Section5-Card-Side > h4 {
+    font-family: poppins-700;
+    font-size: 18px;
+    margin-top: 27.4px;
+    margin-left: 31.56px;
+}
+
+.BigViewLandingPage-Section5-Card-Side > p {
+    font-family: poppins-400;
+    font-size: 14px;
+    margin-top: 7.4px;
+    padding-left: 31.56px;
+    padding-right: 31.56px;
+}
+
+/* .BigViewLandingPage-Section5-Card-Important {
+    width: 380px;
+    height: 450px;
+    background: #ffffff;
+    border: 3px solid rgba(71, 71, 71, 0.1);
+    box-sizing: border-box;
+    box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+}
+
+.BigViewLandingPage-Section5-Card-Important > img {
+    width: 150px;
+    height: 150px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.BigViewLandingPage-Section5-Card-Important > h4 {
+    font-family: poppins-700;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.BigViewLandingPage-Section5-Card-Important > p {
+    font-family: poppins-400;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+} */
+
+.BigViewLandingPage-Section5-Card {
+    width: 300px;
+    height: 355.26px;
+    background: #ffffff;
+    border: 2.37333px solid rgba(71, 71, 71, 0.1);
+    box-sizing: border-box;
+    border-radius: 7.91111px;
+    transition: all 0.4s ease-in-out;
+}
