@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Navbarbigviewnormal from "../../../components/Navbar/Big View/NavbarBigViewNormal";
+import BigviewAboutusSection1 from "./BigView-AboutUs-Section1/BigView-AboutUs-Section1";
 
 class Bigviewaboutus extends Component {
     render() {
@@ -8,6 +9,7 @@ class Bigviewaboutus extends Component {
                 <div className="bigView-navbar-container">
                     <Navbarbigviewnormal />
                 </div>{" "}
+                <BigviewAboutusSection1 />
             </div>
         );
     }

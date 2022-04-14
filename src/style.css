@@ -1,4 +1,9 @@
 @font-face {
+    font-family: poppins-300;
+    src: url("src/font/Poppins/Poppins-Light.ttf");
+}
+
+@font-face {
     font-family: poppins-400;
     src: url("src/font/Poppins/Poppins-Regular.ttf");
 }
