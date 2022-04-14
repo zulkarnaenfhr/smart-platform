@@ -15,6 +15,9 @@ import "./BigViewLandingPage.css";
 import Footerbigview from "../../../components/Footer/Big-View/FooterBigView";
 
 class Bigviewlandingpage extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
     render() {
         return (
             <div id="bigViewLandingPage">
