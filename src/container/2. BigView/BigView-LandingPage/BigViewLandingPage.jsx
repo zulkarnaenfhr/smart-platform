@@ -10,7 +10,7 @@ import BigviewLandingpageSection6 from "./BigView-LandingPage-Section6/BigView-L
 import BigviewLandingpageSection7 from "./BigView-LandingPage-Section7/BigView-LandingPage-Section7";
 import BigviewLandingpageSection8 from "./BigView-LandingPage-Section8/BigView-LandingPage-Section8";
 import BigviewLandingpageSection9 from "./BigView-LandingPage-Section9/BigView-LandingPage-Section9";
-import Beforefooterbigview from "../../../components/BeforeFooter/BeforeFooterBigView";
+import Beforefooterbigview from "../../../components/BeforeFooter/Big View/BeforeFooterBigView";
 import "./BigViewLandingPage.css";
 import Footerbigview from "../../../components/Footer/Big-View/FooterBigView";
 

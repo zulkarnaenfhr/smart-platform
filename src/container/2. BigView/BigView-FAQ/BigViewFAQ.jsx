@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Beforefooterbigview from "../../../components/BeforeFooter/BeforeFooterBigView";
+import Beforefooterbigview from "../../../components/BeforeFooter/Big View/BeforeFooterBigView";
 import Footerbigview from "../../../components/Footer/Big-View/FooterBigView";
 import NavbarBigViewNormal from "../../../components/Navbar/Big View/NavbarBigViewNormal";
 import BigviewFaqSection1 from "./BigView-FAQ-Section1/BigView-FAQ-Section1";
