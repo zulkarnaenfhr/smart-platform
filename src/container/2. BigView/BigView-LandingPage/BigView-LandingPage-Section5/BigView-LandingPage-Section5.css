@@ -1,5 +1,5 @@
 #BigViewLandingPage-Section5 {
-    height: 987px;
+    height: 850px;
 }
 
 .BigViewLandingPage-Section5-Title {
@@ -94,3 +94,18 @@
     visibility: hidden;
 }
 /* disable default outline on focused items */
+
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1300px) {
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 1100px) {
+}
