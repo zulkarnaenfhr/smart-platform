@@ -58,3 +58,28 @@
 .BigViewAboutUs-Section3-List-Container2 {
     margin-top: 52px;
 }
+
+@media screen and (max-width: 1440px) {
+    .BigViewAboutUs-Section3-Content-Container {
+        left: 80px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1300px) {
+    .BigViewAboutUs-Section3-Content-Container {
+        transform: scale(0.9);
+        left: 20px;
+    }
+    .BigViewAboutUs-Section3-Background {
+        left: 604px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 1100px) {
+}
