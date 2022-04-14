@@ -1,12 +1,14 @@
 #BigViewAboutUs-Section1 {
     height: 1033px;
+    padding-left: 42px;
+    padding-right: 42px;
 }
 
 .BigViewAboutUs-Section1-Content-Container {
     position: absolute;
     width: 1240px;
     height: 683px;
-    left: 142px;
+    left: 100px;
     top: 200px;
 }
 
