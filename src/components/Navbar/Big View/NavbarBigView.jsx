@@ -176,7 +176,7 @@ class Navbarbigview extends Component {
                                 <Link
                                     className="bigViewButtonFreeTrial-container"
                                     to={{
-                                        pathname: `notset`,
+                                        pathname: `/big-view/login`,
                                     }}
                                 >
                                     <button className="bigViewButtonNavbar bigViewButtonFreeTrial">FREE TRIAL</button>

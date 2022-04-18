@@ -1,0 +1,172 @@
+#BigViewLogin {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.BigViewLogin-content-container-left {
+    z-index: 2;
+    width: 54.5%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 130px;
+    background-color: #ffffff;
+}
+
+.BigViewLogin-content-container-left-Hello {
+    font-family: poppins-700;
+    font-size: 50px;
+    line-height: 70px;
+    text-align: center;
+    color: #000000;
+    text-align: center;
+}
+
+.BigViewLogin-content-container-left-Hello2 {
+    text-align: center;
+    font-family: poppins-400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.BigViewLogin-input {
+    width: 450px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #5c5c5c;
+}
+
+.BigViewLogin-input::placeholder {
+    font-family: poppins-500;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #adadad;
+}
+
+.BigViewLogin-input1 {
+    margin-top: 30px;
+}
+
+.BigViewLogin-input2 {
+    margin-top: 30px;
+}
+
+.BigViewLogin-ForgotPass-container {
+    text-decoration: none;
+}
+
+.BigViewLogin-ForgotPass {
+    text-align: right;
+    font-family: poppins-400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    transition: all 0.3s ease-in-out;
+}
+
+.BigViewLogin-ForgotPass:hover {
+    color: #5a69b7;
+}
+
+.BigViewLogin-ButtonSubmit {
+    width: 450px;
+    height: 60px;
+    background: #009ffd;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    font-family: poppins-500;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.BigViewLogin-Or {
+    margin-top: 32px;
+    font-family: poopins-400;
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-column-gap: 1.2rem;
+    align-items: center;
+}
+
+.BigViewLogin-Or::before,
+.BigViewLogin-Or::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: currentColor;
+}
+
+.BigViewLogin-ButtonGoogle {
+    width: 450px;
+    height: 60px;
+    background: #ffffff;
+    border: 1px solid #009ffd;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin-top: 17px;
+}
+
+.BigViewLogin-SignUp {
+    font-family: poppins-400;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.BigViewLogin-content-container-right {
+    width: 45.5%;
+    display: block;
+}
+
+.BigViewLogin-content-right-Background1 {
+    z-index: -4;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #2c2c2c;
+}
+
+.BigViewLogin-content-right-Background-v {
+    z-index: -3;
+    position: absolute;
+    width: 811.2px;
+    height: 729.31px;
+    margin-top: -5%;
+}
+
+.BigViewLogin-content-right-Background-gradient {
+    z-index: -2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #1c1c1c 5.21%, rgba(36, 35, 35, 0) 31.77%, rgba(32, 32, 32, 0) 67.71%, #1c1c1c 94.79%);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.BigViewLogin-content-right-Title {
+    width: 341px;
+    height: 140px;
+    margin-left: 80px;
+    margin-top: 45px;
+    font-family: poppins-700;
+    font-size: 50px;
+    line-height: 70px;
+    color: #ffffff;
+}
+
+.BigViewLogin-content-right-vector-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.BigViewLogin-content-right-vector {
+    width: 470px;
+    height: 641.15px;
+}
