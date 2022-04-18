@@ -158,7 +158,7 @@ class Navbarbigview extends Component {
                                 <Link
                                     className="bigViewButtonContactUs-container"
                                     to={{
-                                        pathname: `notset`,
+                                        pathname: `/big-view/contactus`,
                                     }}
                                 >
                                     <button className="bigViewButtonNavbar bigViewButtonContactUs">CONTACT US</button>
