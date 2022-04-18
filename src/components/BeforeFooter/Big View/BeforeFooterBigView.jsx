@@ -27,10 +27,10 @@ class Beforefooterbigview extends Component {
                         <div>
                             <p className="BeforeFooterBigView-SPL-ColMid-Row1" data-aos="fade-up" data-aos-offset="0">
                                 Ikuti Social Media Kami <br />
-                                <i class="fa-brands fa-linkedin"></i>
-                                <i class="fa-brands fa-instagram"></i>
-                                <i class="fa-brands fa-twitter"></i>
-                                <i class="fa-brands fa-facebook-square"></i>
+                                <i className="fa-brands fa-linkedin"></i>
+                                <i className="fa-brands fa-instagram"></i>
+                                <i className="fa-brands fa-twitter"></i>
+                                <i className="fa-brands fa-facebook-square"></i>
                             </p>
                             <p className="BeforeFooterBigView-SPL-ColMid-Row2" data-aos="fade-up" data-aos-offset="0">
                                 id.smartplatform{" "}

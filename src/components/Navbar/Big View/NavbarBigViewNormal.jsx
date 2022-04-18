@@ -7,9 +7,14 @@ class Navbarbigviewnormal extends Component {
         return (
             <nav id={"navbarBigView"} className="navbar navbar-expand-lg navbar-light" data-aos="fade-in" data-aos-offset="200" data-aos-delay="300">
                 <div className="container-fluid">
-                    <a className="bigViewNavbarLogo-container" href="#">
+                    <Link
+                        className="bigViewNavbarLogo-container"
+                        to={{
+                            pathname: "/big-view",
+                        }}
+                    >
                         <img className="bigViewNavbarLogo" src={require("../../../src/Big-View/BigViewLogo.png")} alt="" />{" "}
-                    </a>
+                    </Link>
 
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>

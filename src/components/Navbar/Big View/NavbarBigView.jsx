@@ -28,13 +28,23 @@ class Navbarbigview extends Component {
             <nav id={this.state.scrollNavbar === true ? "navbarBigViewScroll" : "navbarBigView"} className="navbar navbar-expand-lg navbar-light" data-aos="fade-in" data-aos-offset="200" data-aos-delay="300">
                 <div className="container-fluid">
                     {this.state.scrollNavbar === true ? (
-                        <a className="bigViewNavbarLogo-container" href="#">
+                        <Link
+                            className="bigViewNavbarLogo-container"
+                            to={{
+                                pathname: "/big-view",
+                            }}
+                        >
                             <img className="bigViewNavbarLogo" src={require("../../../src/Big-View/BigViewLogoScroll.png")} alt="" />{" "}
-                        </a>
+                        </Link>
                     ) : (
-                        <a className="bigViewNavbarLogo-container" href="#">
-                            <img className="bigViewNavbarLogo" src={require("../../../src/Big-View/BigViewLogo.png")} alt="" />{" "}
-                        </a>
+                        <Link
+                            className="bigViewNavbarLogo-container"
+                            to={{
+                                pathname: "/big-view",
+                            }}
+                        >
+                                <img className="bigViewNavbarLogo" src={require("../../../src/Big-View/BigViewLogo.png")} alt="" />{" "}
+                        </Link>
                     )}
 
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
