@@ -50,7 +50,6 @@ class Bigviewlogin extends Component {
                     <img src={require("../../../src/Big-View/BigView-Login/Right-V-Background.png")} className="BigViewLogin-content-right-Background-v" />
                     <div className="BigViewLogin-content-right-Background-gradient"></div>
                     <h1 className="BigViewLogin-content-right-Title">Grow big with Big View</h1>
-                    <br />
                     <div className="BigViewLogin-content-right-vector-container">
                         <img src={require("../../../src/Big-View/BigView-Login/Right-Vector.png")} className="BigViewLogin-content-right-vector" alt="" />
                     </div>
