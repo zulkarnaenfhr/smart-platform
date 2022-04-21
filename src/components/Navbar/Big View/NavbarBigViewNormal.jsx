@@ -35,7 +35,7 @@ class Navbarbigviewnormal extends Component {
                                 <Link
                                     className={"bigViewNavbarMenu"}
                                     to={{
-                                        pathname: `notset`,
+                                        pathname: `/big-view/partnership`,
                                     }}
                                 >
                                     <p>Partnership</p>

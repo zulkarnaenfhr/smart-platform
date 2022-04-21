@@ -66,7 +66,7 @@ class Navbarbigview extends Component {
                                 <Link
                                     className={this.state.scrollNavbar === true ? "bigViewNavbarMenuScroll" : "bigViewNavbarMenu"}
                                     to={{
-                                        pathname: `notset`,
+                                        pathname: `/big-view/partnership`,
                                     }}
                                 >
                                     <p>Partnership</p>
