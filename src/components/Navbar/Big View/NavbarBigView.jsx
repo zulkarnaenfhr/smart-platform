@@ -43,7 +43,7 @@ class Navbarbigview extends Component {
                                 pathname: "/big-view",
                             }}
                         >
-                                <img className="bigViewNavbarLogo" src={require("../../../src/Big-View/BigViewLogo.png")} alt="" />{" "}
+                            <img className="bigViewNavbarLogo" src={require("../../../src/Big-View/BigViewLogo.png")} alt="" />{" "}
                         </Link>
                     )}
 
@@ -89,7 +89,7 @@ class Navbarbigview extends Component {
                                             <Link
                                                 className="bigViewDropdown-menu-Resources"
                                                 to={{
-                                                    pathname: `notset`,
+                                                    pathname: `/big-view/documentation`,
                                                 }}
                                             >
                                                 <p>Documentation</p>
