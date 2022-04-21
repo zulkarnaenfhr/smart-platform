@@ -68,7 +68,7 @@ class SmartPlatformLandingpageSection2 extends Component {
                                 height={"39px"}
                                 productName={`Telco Risk Scoring `}
                                 productDesc={`adalah angka yang memberikan informasi atau kategori Profil Risiko Telkom pelanggan yang mencerminkan seberapa baik atau buruk risiko kredit yang menurut pemberi pinjaman tertentu Anda.`}
-                                linkProduct={`notSet`}
+                                linkProduct={`/big-score`}
                             />
                         </div>
                         <div className="col-4">
