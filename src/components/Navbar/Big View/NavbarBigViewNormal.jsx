@@ -71,7 +71,7 @@ class Navbarbigviewnormal extends Component {
                                             <Link
                                                 className="bigViewDropdown-menu-Resources"
                                                 to={{
-                                                    pathname: `notset`,
+                                                    pathname: `/big-view/support`,
                                                 }}
                                             >
                                                 <p>Support</p>
