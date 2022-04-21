@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Beforefooterbigview from "../../../components/BeforeFooter/Big View/BeforeFooterBigView";
 import Navbarbigscore from "../../../components/Navbar/Big Score/NavbarBigScore";
 import BigscoreLandingpageSection1 from "./BigScore-LandingPage-Section1/BigScore-LandingPage-Section1";
+import BigscoreLandingpageSection10 from "./BigScore-LandingPage-Section10/BigScore-LandingPage-Section10";
 import BigscoreLandingpageSection2 from "./BigScore-LandingPage-Section2/BigScore-LandingPage-Section2";
 import BigscoreLandingpageSection3 from "./BigScore-LandingPage-Section3/BigScore-LandingPage-Section3";
 import BigscoreLandingpageSection4 from "./BigScore-LandingPage-Section4/BigScore-LandingPage-Section4";
@@ -28,6 +29,7 @@ class Bigscorelandingpage extends Component {
                 <BigscoreLandingpageSection7 />
                 <BigscoreLandingpageSection8 />
                 <BigscoreLandingpageSection9 />
+                <BigscoreLandingpageSection10 />
                 <Beforefooterbigview />
             </div>
         );
