@@ -6,6 +6,7 @@ import Smartplatformlandingpage from "./container/1. Smart-Platform/Smart-Platfo
 import Smartplatformsolution from "./container/1. Smart-Platform/Smart-Platform-Solution/SmartPlatformSolution";
 import Bigviewaboutcompany from "./container/2. BigView/BigView-AboutCompany/BigViewAboutCompany";
 import Bigviewaboutus from "./container/2. BigView/BigView-AboutUs/BigViewAboutUs";
+import Bigviewblog from "./container/2. BigView/BigView-Blog/BigViewBlog";
 import Bigviewcontactus from "./container/2. BigView/BigView-ContactUs/BigViewContactUs";
 import Bigviewdocumentation from "./container/2. BigView/BigView-Documentation/BigViewDocumentation";
 import Bigviewfaq from "./container/2. BigView/BigView-FAQ/BigViewFAQ";
@@ -35,6 +36,7 @@ class DashboardBsp extends Component {
                     <Route path="/big-view/documentation" exact element={<Bigviewdocumentation />} />
                     <Route path="/big-view/support" exact element={<Bigviewsupport />} />
                     <Route path="/big-view/aboutcompany" exact element={<Bigviewaboutcompany />} />
+                    <Route path="/big-view/blog" exact element={<Bigviewblog />} />
                     <Route
                         path="*"
                         element={
