@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/smart-platform/static/css/main.163ab661.css",
-    "main.js": "/smart-platform/static/js/main.3a9579e4.js",
+    "main.css": "/smart-platform/static/css/main.71d8345c.css",
+    "main.js": "/smart-platform/static/js/main.b1bb2d3c.js",
     "static/js/787.a2acb59d.chunk.js": "/smart-platform/static/js/787.a2acb59d.chunk.js",
     "static/media/Smart-Platform-Solution-Section1-Background.png": "/smart-platform/static/media/Smart-Platform-Solution-Section1-Background.5b8ad829b187b51b1e1d.png",
     "static/media/Section-1-Background.png": "/smart-platform/static/media/Section-1-Background.66879c677e28c91b7be4.png",
@@ -13,6 +13,9 @@
     "static/media/Section2-Background.png": "/smart-platform/static/media/Section2-Background.c1ca493164b256b8d363.png",
     "static/media/Section4-Background.png": "/smart-platform/static/media/Section4-Background.ab7d786d1ad35e52375a.png",
     "static/media/Right-Vector.png": "/smart-platform/static/media/Right-Vector.4d22e7961074f2ad0038.png",
+    "static/media/Section2-Vector.png": "/smart-platform/static/media/Section2-Vector.84101088b42a5281d012.png",
+    "static/media/Section1-Vector.png": "/smart-platform/static/media/Section1-Vector.ea31fcf19849f7bfe862.png",
+    "static/media/Section4-Vector.png": "/smart-platform/static/media/Section4-Vector.2dd9377c573e6123be3e.png",
     "static/media/Section7-Background.png": "/smart-platform/static/media/Section7-Background.674ba887e4ae203d27e1.png",
     "static/media/Section1-Background.png": "/smart-platform/static/media/Section1-Background.26258f9501637415a61a.png",
     "static/media/BigViewLogo Right.png": "/smart-platform/static/media/BigViewLogo Right.b094eeda8833c322e8f0.png",
@@ -42,6 +45,7 @@
     "static/media/BigViewLogoScroll.png": "/smart-platform/static/media/BigViewLogoScroll.a579be20218d7eb44f73.png",
     "static/media/Section-6-AHM.png": "/smart-platform/static/media/Section-6-AHM.38c75502501ee0f18a4c.png",
     "static/media/Section-6-Dishub.png": "/smart-platform/static/media/Section-6-Dishub.ab1ca90fb3511f3c1b73.png",
+    "static/media/Big-Score-Logo.png": "/smart-platform/static/media/Big-Score-Logo.8bd8ee588882999afac6.png",
     "static/media/Section-1-Big-Score.png": "/smart-platform/static/media/Section-1-Big-Score.d60c5a9512057b988834.png",
     "static/media/Section-6-Pertamina.png": "/smart-platform/static/media/Section-6-Pertamina.4a84783e94e61abd1125.png",
     "static/media/Section2-Logo-Telkom.png": "/smart-platform/static/media/Section2-Logo-Telkom.b8612d77babc97c58d54.png",
@@ -64,12 +68,12 @@
     "static/media/Section9-Vector3.png": "/smart-platform/static/media/Section9-Vector3.5a3de921252fe9a28488.png",
     "static/media/Section-4-Document-Detection.png": "/smart-platform/static/media/Section-4-Document-Detection.4afb7074032e35bb6355.png",
     "index.html": "/smart-platform/index.html",
-    "main.163ab661.css.map": "/smart-platform/static/css/main.163ab661.css.map",
-    "main.3a9579e4.js.map": "/smart-platform/static/js/main.3a9579e4.js.map",
+    "main.71d8345c.css.map": "/smart-platform/static/css/main.71d8345c.css.map",
+    "main.b1bb2d3c.js.map": "/smart-platform/static/js/main.b1bb2d3c.js.map",
     "787.a2acb59d.chunk.js.map": "/smart-platform/static/js/787.a2acb59d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.163ab661.css",
-    "static/js/main.3a9579e4.js"
+    "static/css/main.71d8345c.css",
+    "static/js/main.b1bb2d3c.js"
   ]
 }
