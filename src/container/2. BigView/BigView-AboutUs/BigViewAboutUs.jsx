@@ -7,6 +7,9 @@ import BigviewAboutusSection2 from "./BigView-AboutUs-Section2/BigView-AboutUs-S
 import BigviewAboutusSection3 from "./BigView-AboutUs-Section3/BigView-AboutUs-Section3";
 
 class Bigviewaboutus extends Component {
+    componentDidMount() {
+        document.title = "About Big View";
+    }
     render() {
         return (
             <div id="BigViewAboutUs">

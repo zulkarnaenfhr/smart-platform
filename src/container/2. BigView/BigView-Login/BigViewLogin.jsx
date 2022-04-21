@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import "./BigViewLogin.css";
 
 class Bigviewlogin extends Component {
+    componentDidMount() {
+        document.title = "Big View Login";
+    }
     render() {
         return (
             <div id="BigViewLogin">

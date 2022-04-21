@@ -5,6 +5,9 @@ import Navbarbigviewnormal from "../../../components/Navbar/Big View/NavbarBigVi
 import BigviewContactusSection1 from "./BigView-ContactUs-Section1/BigView-ContactUs-Section1";
 
 class Bigviewcontactus extends Component {
+    componentDidMount() {
+        document.title = "Contact Big View";
+    }
     render() {
         return (
             <div id="BigViewContactUs">

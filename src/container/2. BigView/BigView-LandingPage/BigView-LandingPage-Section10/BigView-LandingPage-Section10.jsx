@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./BigView-LandingPage-Section10.css";
 
 class BigviewLandingpageSection10 extends Component {
@@ -9,8 +10,20 @@ class BigviewLandingpageSection10 extends Component {
                     Begin your journey and grow big with us
                 </h1>
                 <div className="BigViewLandingPage-Section10-Button-Container" data-aos="fade-up" data-aos-delay="0">
-                    <button className="BigViewLandingPage-Section10-Button-FreeTrial">Free Trial</button>
-                    <button className="BigViewLandingPage-Section10-Button-ContactUs">Contact Us</button>
+                    <Link
+                        to={{
+                            pathname: `big-view/login`,
+                        }}
+                    >
+                        <button className="BigViewLandingPage-Section10-Button-FreeTrial">Free Trial</button>
+                    </Link>
+                    <Link
+                        to={{
+                            pathname: `/big-view/contactus`,
+                        }}
+                    >
+                        <button className="BigViewLandingPage-Section10-Button-ContactUs">Contact Us</button>
+                    </Link>
                 </div>
             </div>
         );
