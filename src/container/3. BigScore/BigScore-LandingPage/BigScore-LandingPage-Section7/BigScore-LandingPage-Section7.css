@@ -4,14 +4,12 @@
     position: relative;
     display: flex;
     justify-content: center;
-    border: 1px solid blue;
 }
 
 .BigScoreLandingPage-Section7-Content-Container {
     margin-top: 93px;
     width: 1240px;
     height: 535px;
-    border: 1px solid red;
     position: relative;
 }
 
