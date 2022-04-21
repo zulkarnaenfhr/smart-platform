@@ -1,12 +1,18 @@
 import React, { Component } from "react";
 import Navbarbigscore from "../../../components/Navbar/Big Score/NavbarBigScore";
+import BigscoreLandingpageSection1 from "./BigScore-LandingPage-Section1/BigScore-LandingPage-Section1";
+import BigscoreLandingpageSection2 from "./BigScore-LandingPage-Section2/BigScore-LandingPage-Section2";
+import "./BigScoreLandingPage.css";
 
 class Bigscorelandingpage extends Component {
     render() {
         return (
-            <div>
-                <Navbarbigscore />
-                <h1>masuk</h1>
+            <div id="BigScoreLandingPage">
+                <div className="BigScore-navbar-container">
+                    <Navbarbigscore />
+                </div>
+                <BigscoreLandingpageSection1 />
+                <BigscoreLandingpageSection2 />
             </div>
         );
     }
