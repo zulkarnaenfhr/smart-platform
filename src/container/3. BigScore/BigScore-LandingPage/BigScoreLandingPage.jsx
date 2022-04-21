@@ -7,6 +7,7 @@ import BigscoreLandingpageSection3 from "./BigScore-LandingPage-Section3/BigScor
 import BigscoreLandingpageSection4 from "./BigScore-LandingPage-Section4/BigScore-LandingPage-Section4";
 import BigscoreLandingpageSection5 from "./BigScore-LandingPage-Section5/BigScore-LandingPage-Section5";
 import BigscoreLandingpageSection6 from "./BigScore-LandingPage-Section6/BigScore-LandingPage-Section6";
+import BigscoreLandingpageSection7 from "./BigScore-LandingPage-Section7/BigScore-LandingPage-Section7";
 import "./BigScoreLandingPage.css";
 
 class Bigscorelandingpage extends Component {
@@ -22,6 +23,7 @@ class Bigscorelandingpage extends Component {
                 <BigscoreLandingpageSection4 />
                 <BigscoreLandingpageSection5 />
                 <BigscoreLandingpageSection6 />
+                <BigscoreLandingpageSection7 />
                 <Beforefooterbigview />
             </div>
         );
