@@ -13,6 +13,7 @@ import Bigviewfaq from "./container/2. BigView/BigView-FAQ/BigViewFAQ";
 import Bigviewlandingpage from "./container/2. BigView/BigView-LandingPage/BigViewLandingPage";
 import Bigviewlogin from "./container/2. BigView/BigView-Login/BigViewLogin";
 import Bigviewpartnership from "./container/2. BigView/BigView-Partnership/BigViewPartnership";
+import Bigviewpress from "./container/2. BigView/BigView-Press/BigViewPress";
 import Bigviewsupport from "./container/2. BigView/BigView-Support/BigViewSupport";
 import "./style.css";
 
@@ -37,6 +38,7 @@ class DashboardBsp extends Component {
                     <Route path="/big-view/support" exact element={<Bigviewsupport />} />
                     <Route path="/big-view/aboutcompany" exact element={<Bigviewaboutcompany />} />
                     <Route path="/big-view/blog" exact element={<Bigviewblog />} />
+                    <Route path="/big-view/press" exact element={<Bigviewpress />} />
                     <Route
                         path="*"
                         element={
