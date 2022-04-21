@@ -15,7 +15,7 @@ class BigviewLandingpageSection6 extends Component {
                 <div className="BigViewLandingPage-Section6-Button-Container">
                     <Link
                         to={{
-                            pathname: `notset`,
+                            pathname: `/big-view/login`,
                         }}
                     >
                         <button data-aos="fade-up" data-aos-delay="0" className="BigViewLandingPage-Section6-Button">
