@@ -57,3 +57,30 @@
     text-align: center;
     color: #ffffff;
 }
+
+@media screen and (max-width: 1440px) {
+    .BigScoreLandingPage-Section2-Vector {
+        transform: scale(0.9);
+    }
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1300px) {
+    .BigScoreLandingPage-Section2-Vector {
+        transform: scale(0.8);
+        left: 90px;
+    }
+
+    .BigScoreLandingPage-Section2-TextandButton-Container {
+        border: 1px solid red;
+        left: 701px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 1100px) {
+}
