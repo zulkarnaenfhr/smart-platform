@@ -79,3 +79,41 @@
 .BigScoreAboutUs-Section2-List-Row2 {
     margin-top: 15px;
 }
+
+@media screen and (max-width: 1440px) {
+    .BigScoreAboutUs-Section2-Content-Container {
+        transform: scale(0.9);
+    }
+    .BigScoreAboutUs-Section2-Vector {
+        left: 100px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1300px) {
+    .BigScoreAboutUs-Section2-Content-Container {
+        transform: scale(0.9);
+    }
+    .BigScoreAboutUs-Section2-Vector {
+        left: 50px;
+    }
+
+    .BigScoreAboutUs-Section2-Title-Container {
+        transform: scale(0.9);
+        left: 550px;
+    }
+    .BigScoreAboutUs-Section2-Text {
+        left: 620px;
+    }
+    .BigScoreAboutUs-Section2-List-Container {
+        left: 620px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 1100px) {
+}
