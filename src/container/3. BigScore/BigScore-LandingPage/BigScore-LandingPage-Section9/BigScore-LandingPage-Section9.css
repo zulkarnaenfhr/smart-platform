@@ -1,7 +1,6 @@
 #BigScoreLandingPage-Section9 {
     width: 100vw;
     height: 575px;
-    border: 1px solid blue;
     display: flex;
     justify-content: center;
 }
@@ -53,4 +52,25 @@
     width: 232.97px;
     height: 80px;
     margin-left: 80px;
+}
+
+@media screen and (max-width: 1440px) {
+    .BigScoreLandingPage-Section9-Content-Container {
+        transform: scale(0.9);
+    }
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1300px) {
+    .BigScoreLandingPage-Section9-Content-Container {
+        transform: scale(0.8);
+    }
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 1100px) {
 }
