@@ -68,9 +68,6 @@
 }
 
 @media screen and (max-width: 1440px) {
-    .BigScoreLandingPage-Section4-Content-Container {
-        border: 1px solid red;
-    }
     .BigScoreLandingPage-Section4-Vector {
         transform: scale(0.9);
         left: 600px;
@@ -83,7 +80,6 @@
 
 @media screen and (max-width: 1300px) {
     .BigScoreLandingPage-Section4-Content-Container {
-        border: 1px solid red;
         transform: scale(0.9);
     }
 }
