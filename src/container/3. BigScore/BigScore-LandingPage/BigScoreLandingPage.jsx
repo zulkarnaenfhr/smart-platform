@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import Beforefooterbigview from "../../../components/BeforeFooter/Big View/BeforeFooterBigView";
+import Beforefooterbigscore from "../../../components/BeforeFooter/Big Score/BeforeFooterBigScore";
+import Footerbigscore from "../../../components/Footer/Big-Score/FooterBigScore";
 import Navbarbigscore from "../../../components/Navbar/Big Score/NavbarBigScore";
 import BigscoreLandingpageSection1 from "./BigScore-LandingPage-Section1/BigScore-LandingPage-Section1";
 import BigscoreLandingpageSection10 from "./BigScore-LandingPage-Section10/BigScore-LandingPage-Section10";
@@ -30,7 +31,8 @@ class Bigscorelandingpage extends Component {
                 <BigscoreLandingpageSection8 />
                 <BigscoreLandingpageSection9 />
                 <BigscoreLandingpageSection10 />
-                <Beforefooterbigview />
+                <Beforefooterbigscore />
+                <Footerbigscore />
             </div>
         );
     }
