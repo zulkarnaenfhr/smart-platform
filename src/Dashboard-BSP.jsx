@@ -15,6 +15,7 @@ import Bigviewlogin from "./container/2. BigView/BigView-Login/BigViewLogin";
 import Bigviewpartnership from "./container/2. BigView/BigView-Partnership/BigViewPartnership";
 import Bigviewpress from "./container/2. BigView/BigView-Press/BigViewPress";
 import Bigviewsupport from "./container/2. BigView/BigView-Support/BigViewSupport";
+import Bigscoreaboutus from "./container/3. BigScore/BigScore-AboutUs/BigScoreAboutUs";
 import Bigscorelandingpage from "./container/3. BigScore/BigScore-LandingPage/BigScoreLandingPage";
 import "./style.css";
 
@@ -41,6 +42,7 @@ class DashboardBsp extends Component {
                     <Route path="/big-view/blog" exact element={<Bigviewblog />} />
                     <Route path="/big-view/press" exact element={<Bigviewpress />} />
                     <Route path="/big-score" exact element={<Bigscorelandingpage />} />
+                    <Route path="/big-score/aboutus" exact element={<Bigscoreaboutus />} />
                     <Route
                         path="*"
                         element={
