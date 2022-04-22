@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/smart-platform/static/css/main.104692ca.css",
-    "main.js": "/smart-platform/static/js/main.857e3890.js",
+    "main.css": "/smart-platform/static/css/main.26de5cda.css",
+    "main.js": "/smart-platform/static/js/main.1cb95ebb.js",
     "static/js/787.a2acb59d.chunk.js": "/smart-platform/static/js/787.a2acb59d.chunk.js",
     "static/media/Smart-Platform-Solution-Section1-Background.png": "/smart-platform/static/media/Smart-Platform-Solution-Section1-Background.5b8ad829b187b51b1e1d.png",
     "static/media/Section-1-Background.png": "/smart-platform/static/media/Section-1-Background.66879c677e28c91b7be4.png",
@@ -9,16 +9,18 @@
     "static/media/Section-7-Background.png": "/smart-platform/static/media/Section-7-Background.77f730a2c7ce95b76b17.png",
     "static/media/Section3-Background.png": "/smart-platform/static/media/Section3-Background.0d655c8b7ced9fba9d9c.png",
     "static/media/Background2 Section 1.png": "/smart-platform/static/media/Background2 Section 1.133d65d846e223785d8f.png",
+    "static/media/Section3-Vector.png": "/smart-platform/static/media/Section3-Vector.d76be5a7ff63475baa9c.png",
     "static/media/Section-7-Background2.png": "/smart-platform/static/media/Section-7-Background2.a86732993336a03410a9.png",
+    "static/media/Section2-Vector.png": "/smart-platform/static/media/Section2-Vector.84101088b42a5281d012.png",
     "static/media/Section2-Background.png": "/smart-platform/static/media/Section2-Background.c1ca493164b256b8d363.png",
     "static/media/Section4-Background.png": "/smart-platform/static/media/Section4-Background.ab7d786d1ad35e52375a.png",
     "static/media/Right-Vector.png": "/smart-platform/static/media/Right-Vector.4d22e7961074f2ad0038.png",
     "static/media/Section6-Vector.png": "/smart-platform/static/media/Section6-Vector.19f876edc0a4de16e5fd.png",
-    "static/media/Section2-Vector.png": "/smart-platform/static/media/Section2-Vector.84101088b42a5281d012.png",
     "static/media/Section1-Vector.png": "/smart-platform/static/media/Section1-Vector.ea31fcf19849f7bfe862.png",
     "static/media/Section4-Vector.png": "/smart-platform/static/media/Section4-Vector.2dd9377c573e6123be3e.png",
     "static/media/Section7-Background.png": "/smart-platform/static/media/Section7-Background.674ba887e4ae203d27e1.png",
     "static/media/Section1-Background.png": "/smart-platform/static/media/Section1-Background.26258f9501637415a61a.png",
+    "static/media/Section1-Vector2.png": "/smart-platform/static/media/Section1-Vector2.40025757296fa49646c5.png",
     "static/media/BigViewLogo Right.png": "/smart-platform/static/media/BigViewLogo Right.b094eeda8833c322e8f0.png",
     "static/media/Section-8-LogoRight.png": "/smart-platform/static/media/Section-8-LogoRight.b094eeda8833c322e8f0.png",
     "static/media/Poppins-Light.ttf": "/smart-platform/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
@@ -77,12 +79,12 @@
     "static/media/Section9-Vector3.png": "/smart-platform/static/media/Section9-Vector3.5a3de921252fe9a28488.png",
     "static/media/Section-4-Document-Detection.png": "/smart-platform/static/media/Section-4-Document-Detection.4afb7074032e35bb6355.png",
     "index.html": "/smart-platform/index.html",
-    "main.104692ca.css.map": "/smart-platform/static/css/main.104692ca.css.map",
-    "main.857e3890.js.map": "/smart-platform/static/js/main.857e3890.js.map",
+    "main.26de5cda.css.map": "/smart-platform/static/css/main.26de5cda.css.map",
+    "main.1cb95ebb.js.map": "/smart-platform/static/js/main.1cb95ebb.js.map",
     "787.a2acb59d.chunk.js.map": "/smart-platform/static/js/787.a2acb59d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.104692ca.css",
-    "static/js/main.857e3890.js"
+    "static/css/main.26de5cda.css",
+    "static/js/main.1cb95ebb.js"
   ]
 }
