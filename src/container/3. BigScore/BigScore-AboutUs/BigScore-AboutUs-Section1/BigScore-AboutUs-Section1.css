@@ -74,3 +74,25 @@
     left: 690px;
     top: 46px;
 }
+
+@media screen and (max-width: 1440px) {
+    .BigScoreAboutUs-Section1-Vector2 {
+        transform: scale(0.9);
+    }
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1300px) {
+    .BigScoreAboutUs-Section1-Container-Content {
+        transform: scale(0.9);
+        top: 155px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 1100px) {
+}
