@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbarbigscore from "../../../components/Navbar/Big Score/NavbarBigScore";
 import BigscoreAboutusSection1 from "./BigScore-AboutUs-Section1/BigScore-AboutUs-Section1";
+import BigscoreAboutusSection2 from "./BigScore-AboutUs-Section2/BigScore-AboutUs-Section2";
 import "./BigScoreAboutUs.css";
 
 class Bigscoreaboutus extends Component {
@@ -11,6 +12,7 @@ class Bigscoreaboutus extends Component {
                     <Navbarbigscore />
                 </div>{" "}
                 <BigscoreAboutusSection1 />
+                <BigscoreAboutusSection2 />
             </div>
         );
     }
