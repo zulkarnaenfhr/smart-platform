@@ -18,6 +18,7 @@ import Bigviewsupport from "./container/2. BigView/BigView-Support/BigViewSuppor
 import Bigscoreaboutus from "./container/3. BigScore/BigScore-AboutUs/BigScoreAboutUs";
 import Bigscorelandingpage from "./container/3. BigScore/BigScore-LandingPage/BigScoreLandingPage";
 import BigScoreLogin from "./container/3. BigScore/BigScore-Login/BigScoreLogin";
+import BigScoreRegister from "./container/3. BigScore/BigScore-Register/BigScoreRegister";
 import "./style.css";
 
 class DashboardBsp extends Component {
@@ -45,6 +46,7 @@ class DashboardBsp extends Component {
                     <Route path="/big-score" exact element={<Bigscorelandingpage />} />
                     <Route path="/big-score/aboutus" exact element={<Bigscoreaboutus />} />
                     <Route path="/big-score/login" exact element={<BigScoreLogin />} />
+                    <Route path="/big-score/register" exact element={<BigScoreRegister />} />
                     <Route
                         path="*"
                         element={
