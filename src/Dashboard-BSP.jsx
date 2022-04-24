@@ -30,7 +30,6 @@ class DashboardBsp extends Component {
         return (
             <div>
                 <Routes>
-                    {/* <Route path="smart-platform" exact element ={} */}
                     <Route path="/smart-platform/" exact element={<Smartplatformlandingpage />} />
                     <Route path="/smart-platform/solution" exact element={<Smartplatformsolution />} />
                     <Route path="/smart-platform/contactus" exact element={<Smartplatformcontactus />} />
@@ -47,6 +46,7 @@ class DashboardBsp extends Component {
                     <Route path="/big-view/aboutcompany" exact element={<Bigviewaboutcompany />} />
                     <Route path="/big-view/blog" exact element={<Bigviewblog />} />
                     <Route path="/big-view/press" exact element={<Bigviewpress />} />
+                    {/* big score platform  */}
                     <Route path="/big-score" exact element={<Bigscorelandingpage />} />
                     <Route path="/big-score/aboutus" exact element={<Bigscoreaboutus />} />
                     <Route path="/big-score/partnership" exact element={<BigscorePartnership />} />
