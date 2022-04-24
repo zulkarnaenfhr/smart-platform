@@ -91,7 +91,7 @@ class Navbarbigscore extends Component {
                                             <Link
                                                 className="BigScoreDropdown-menu-Company"
                                                 to={{
-                                                    pathname: `notset`,
+                                                    pathname: `/big-score/aboutcompany`,
                                                 }}
                                             >
                                                 <p>About Company</p>
