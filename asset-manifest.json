@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/smart-platform/static/css/main.86644807.css",
-    "main.js": "/smart-platform/static/js/main.a27296fb.js",
+    "main.css": "/smart-platform/static/css/main.c71617fb.css",
+    "main.js": "/smart-platform/static/js/main.d34f8ec4.js",
     "static/js/787.a2acb59d.chunk.js": "/smart-platform/static/js/787.a2acb59d.chunk.js",
     "static/media/Smart-Platform-Solution-Section1-Background.png": "/smart-platform/static/media/Smart-Platform-Solution-Section1-Background.5b8ad829b187b51b1e1d.png",
     "static/media/Section-1-Background.png": "/smart-platform/static/media/Section-1-Background.66879c677e28c91b7be4.png",
@@ -37,8 +37,6 @@
     "static/media/Section2-Logo-Infomedia.png": "/smart-platform/static/media/Section2-Logo-Infomedia.11d143fa181c35975739.png",
     "static/media/Section9-LogoKredivo.png": "/smart-platform/static/media/Section9-LogoKredivo.8f436c1c53bb118ce5bd.png",
     "static/media/Background Section 1.png": "/smart-platform/static/media/Background Section 1.8d3e0c717a48ca23013c.png",
-    "static/media/Logo-Navbar.png": "/smart-platform/static/media/Logo-Navbar.24eac66c7a5ea2be59fd.png",
-    "static/media/LogoSmartPlatform.png": "/smart-platform/static/media/LogoSmartPlatform.24eac66c7a5ea2be59fd.png",
     "static/media/Section7-Vector4.png": "/smart-platform/static/media/Section7-Vector4.3d6bff8568b3d6c605fb.png",
     "static/media/Section9-LogoFinneos.png": "/smart-platform/static/media/Section9-LogoFinneos.6a6bf0de488aae038e60.png",
     "static/media/Section-6-Kemenkes.png": "/smart-platform/static/media/Section-6-Kemenkes.8fdf64d7f3a3a1aeb43d.png",
@@ -64,6 +62,7 @@
     "static/media/Section7-Vector1.png": "/smart-platform/static/media/Section7-Vector1.abd6cff5181a3ac3d868.png",
     "static/media/Section7-Vector2.png": "/smart-platform/static/media/Section7-Vector2.f281f5a99e52c347b5cc.png",
     "static/media/Section5-Social Media Analytics.png": "/smart-platform/static/media/Section5-Social Media Analytics.5131d1ed3e8e739e9efa.png",
+    "static/media/LogoBigSight.png": "/smart-platform/static/media/LogoBigSight.eec7379f9a20cd3af23f.png",
     "static/media/Smart-Platform-Solution-Section2-ObjectDetection.png": "/smart-platform/static/media/Smart-Platform-Solution-Section2-ObjectDetection.5847850518e43c42491b.png",
     "static/media/Section5-Potensi Daerah.png": "/smart-platform/static/media/Section5-Potensi Daerah.6474ce88f622eead63d9.png",
     "static/media/Section5-Digital Media Analytics.png": "/smart-platform/static/media/Section5-Digital Media Analytics.0be8fe93fe5e046c8e98.png",
@@ -79,12 +78,12 @@
     "static/media/Section9-Vector3.png": "/smart-platform/static/media/Section9-Vector3.5a3de921252fe9a28488.png",
     "static/media/Section-4-Document-Detection.png": "/smart-platform/static/media/Section-4-Document-Detection.4afb7074032e35bb6355.png",
     "index.html": "/smart-platform/index.html",
-    "main.86644807.css.map": "/smart-platform/static/css/main.86644807.css.map",
-    "main.a27296fb.js.map": "/smart-platform/static/js/main.a27296fb.js.map",
+    "main.c71617fb.css.map": "/smart-platform/static/css/main.c71617fb.css.map",
+    "main.d34f8ec4.js.map": "/smart-platform/static/js/main.d34f8ec4.js.map",
     "787.a2acb59d.chunk.js.map": "/smart-platform/static/js/787.a2acb59d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.86644807.css",
-    "static/js/main.a27296fb.js"
+    "static/css/main.c71617fb.css",
+    "static/js/main.d34f8ec4.js"
   ]
 }
