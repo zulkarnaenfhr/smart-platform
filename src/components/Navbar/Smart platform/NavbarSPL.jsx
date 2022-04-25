@@ -8,7 +8,7 @@ class Navbarspl extends Component {
             <nav data-aos="fade-up" data-aos-offset="200" id="navbarSpl" className="navbar navbarSpl navbar-expand-lg navbar-light">
                 <div className="container-fluid">
                     <a className="SPLNavbarLogo-Container" href="/smart-platform">
-                        <img className="SPLNavbarLogo" src={require("../../../src/Smart-Platform/Landing Page/Logo-Navbar.png")} alt="" />
+                        <img className="SPLNavbarLogo" src={require("../../../src/Smart-Platform/LogoBigSight.png")} alt="" />
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>

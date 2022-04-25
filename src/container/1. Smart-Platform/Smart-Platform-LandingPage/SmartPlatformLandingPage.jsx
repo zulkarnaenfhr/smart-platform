@@ -13,8 +13,8 @@ import "./SmartPlatformLandingPage.css";
 // import "../../../src/Smart-Platform/Landing Page/"
 
 class Smartplatformlandingpage extends Component {
-    componentDidMount(){
-        document.title = "Smart Platform"
+    componentDidMount() {
+        document.title = "Smart Platform";
     }
     render() {
         return (
@@ -34,7 +34,6 @@ class Smartplatformlandingpage extends Component {
                     <SmartPlatformLandingpageSection7 />
                     <SmartPlatformLandingpageSection8 />
                 </div>
-                <img className="SPL-LandingPage-Section7-Background2" src={require("../../../src/Smart-Platform/Landing Page/Section-7-Background2.png")} alt="" />
                 <Footerspl />
             </div>
         );

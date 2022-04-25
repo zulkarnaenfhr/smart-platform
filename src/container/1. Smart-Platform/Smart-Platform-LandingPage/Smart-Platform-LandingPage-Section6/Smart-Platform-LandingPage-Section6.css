@@ -11,6 +11,12 @@
     text-transform: uppercase;
 }
 
+.SPL-LandingPage-Section6-Content-Logo-Container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
 .SPL-LandingPage-Section6-andMore {
     text-align: center;
     font-family: poppins-700;

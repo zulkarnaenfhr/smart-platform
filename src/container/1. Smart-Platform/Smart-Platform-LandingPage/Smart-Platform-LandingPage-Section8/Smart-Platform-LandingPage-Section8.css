@@ -1,12 +1,16 @@
 #SPL-LandingPage-Section8 {
-    height: 456px;
+    min-height: 456px;
     padding-left: 157px;
     background-color: #f7f7f7;
 }
 
+.SPL-LandingPage-Section8-Parent-Content-Container{
+    padding-bottom: 50px;
+}
+
 .SPL-LandingPage-Section8-SPL-Logo {
-    width: 314px;
-    height: 106px;
+    width: 291px;
+    height: 170px;
     margin-top: 55px;
     margin-left: -20px;
 }

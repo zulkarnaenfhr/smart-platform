@@ -7,9 +7,9 @@
 }
 
 .SPLNavbarLogo {
-    width: 216px;
-    height: 73px;
-    margin-left: 106px;
+    width: 148px;
+    height: 87px;
+    margin-left: 164px;
     margin-top: 9px;
 }
 
@@ -189,7 +189,8 @@
 
 @media screen and (max-width: 1440px) {
     .SPLNavbarLogo {
-        margin-left: 72px;
+        margin-left: 105px;
+        transform: scale(0.9);
     }
 }
 
@@ -210,6 +211,7 @@
 @media screen and (max-width: 1300px) {
     .SPLNavbarLogo {
         margin-left: 55px;
+        transform: scale(0.8);
     }
 
     .SplnavbarMenu-container {
@@ -224,7 +226,6 @@
 @media screen and (max-width: 1150px) {
     .SPLNavbarLogo {
         margin-left: 0px;
-        transform: scale(0.85);
     }
 
     .SplnavbarMenu-container {

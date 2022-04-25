@@ -10,7 +10,7 @@ class SmartPlatformLandingpageSection1 extends Component {
                         We Create And Build
                     </h3>
                     <h1 data-aos="fade-up" data-aos-offset="200" data-aos-delay="500">
-                        Digital Product With Delightful <br /> AI Solution
+                        Digital Products With Delightful <br /> AI Solution
                     </h1>
                     <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="600">
                         <h4 data-aos="fade-up">BOOST YOUR BUSINESS VALUE</h4>
