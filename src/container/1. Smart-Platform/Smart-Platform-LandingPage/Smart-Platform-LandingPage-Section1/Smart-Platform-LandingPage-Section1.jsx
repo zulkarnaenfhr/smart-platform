@@ -6,13 +6,13 @@ class SmartPlatformLandingpageSection1 extends Component {
         return (
             <div id="SPL-LandingPage-Section1">
                 <div className="SPL-LandingPage-Section1-Text-container">
-                    <h3 data-aos="fade-up" data-aos-offset="200" data-aos-delay="300">
+                    <h3 data-aos="fade-up" data-aos-offset="100" data-aos-delay="300">
                         We Create And Build
                     </h3>
-                    <h1 data-aos="fade-up" data-aos-offset="200" data-aos-delay="500">
+                    <h1 data-aos="fade-up" data-aos-offset="100" data-aos-delay="500">
                         Digital Products With Delightful <br /> AI Solution
                     </h1>
-                    <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="600">
+                    <div data-aos="fade-up" data-aos-offset="100" data-aos-delay="600">
                         <h4 data-aos="fade-up">BOOST YOUR BUSINESS VALUE</h4>
                         <a href="#SPL-LandingPage-Section2">
                             <button className="SPL-LandingPage-Section1-button-SeeDetails">
@@ -23,7 +23,7 @@ class SmartPlatformLandingpageSection1 extends Component {
                 </div>
                 <img
                     data-aos="fade-up"
-                    data-aos-offset="200"
+                    data-aos-offset="100"
                     data-aos-delay="100"
                     className="SPL-LandingPage-Section1-Background"
                     src={require("../../../../src/Smart-Platform/Landing Page/Section-1-Background.png")}

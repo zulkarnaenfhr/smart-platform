@@ -8,14 +8,14 @@ class SmartPlatformLandingpageSection2 extends Component {
             <div id="SPL-LandingPage-Section2">
                 <div className="SPL-LandingPage-Section2-Container container">
                     <div className="SPL-LandingPage-Section2-Text-Container">
-                        <p data-aos="fade-up" data-aos-offset="200" className="SPL-LandingPage-Section2-Text1">
+                        <p data-aos="fade-up" data-aos-offset="100" className="SPL-LandingPage-Section2-Text1">
                             What We're Offering <br /> Services We're Providing To Our Client
                         </p>
-                        <h2 data-aos="fade-up" data-aos-offset="200" className="SPL-LandingPage-Section2-Text2">
+                        <h2 data-aos="fade-up" data-aos-offset="100" className="SPL-LandingPage-Section2-Text2">
                             EXPLORE OUR PRODUCT
                         </h2>
                     </div>
-                    <div className="SPL-LandingPage-Section2-Card-Container row" data-aos="fade-up" data-aos-offset="200">
+                    <div className="SPL-LandingPage-Section2-Card-Container row" data-aos="fade-up" data-aos-offset="100">
                         <div className="col-4">
                             <Cardspllandingpage
                                 logoImg={require("../../../../src/Smart-Platform/Landing Page/Section-1-Legal-Analytic.png")}
@@ -57,7 +57,7 @@ class SmartPlatformLandingpageSection2 extends Component {
                             />{" "}
                         </div>
                     </div>
-                    <div className="SPL-LandingPage-Section2-Card-Container row" data-aos="fade-up" data-aos-offset="200">
+                    <div className="SPL-LandingPage-Section2-Card-Container row" data-aos="fade-up" data-aos-offset="100">
                         <div className="col-4">
                             <Cardspllandingpage
                                 logoImg={require("../../../../src/Smart-Platform/Landing Page/Section-1-Big-Score.png")}
@@ -98,7 +98,7 @@ class SmartPlatformLandingpageSection2 extends Component {
                             />{" "}
                         </div>
                     </div>
-                    {/* <div className="SPL-LandingPage-Section2-Card-Container row" data-aos="fade-up" data-aos-offset="200">
+                    {/* <div className="SPL-LandingPage-Section2-Card-Container row" data-aos="fade-up" data-aos-offset="100">
                         <div className="col-4">
                             <Cardspllandingpage
                                 logoImg={`https://i.ibb.co/gvxh6zL/Section-2-Legal-Analytic.png`}
@@ -125,7 +125,7 @@ class SmartPlatformLandingpageSection2 extends Component {
                             />{" "}
                         </div>
                     </div>
-                    <div className="SPL-LandingPage-Section2-Card-Container row" data-aos="fade-up" data-aos-offset="200">
+                    <div className="SPL-LandingPage-Section2-Card-Container row" data-aos="fade-up" data-aos-offset="100">
                         <div className="col-4">
                             <Cardspllandingpage
                                 logoImg={`https://i.ibb.co/4ZKX2SL/Section-2-Big-Score.png`}
