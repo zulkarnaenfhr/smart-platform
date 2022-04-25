@@ -124,7 +124,7 @@ class Navbarbigscore extends Component {
                                 <Link
                                     className="BigScoreButtonContactUs-container"
                                     to={{
-                                        pathname: `notset`,
+                                        pathname: `/big-score/contactus`,
                                     }}
                                 >
                                     <button className="BigScoreButtonNavbar BigScoreButtonContactUs">CONTACT US</button>
